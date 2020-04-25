@@ -1,0 +1,247 @@
+//@import "libs"
+@import "vars"
+@import "fonts"
+
+::placeholder
+	color: $white
+
+::selection
+	background-color: $accent
+	color: #fff
+
+*
+	box-sizing: border-box
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video
+	margin: 0
+	padding: 0
+	border: 0
+	font-size: 100%
+	font: inherit
+	vertical-align: baseline
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section
+	display: block
+
+ol, ul
+	list-style: none
+
+table
+	border-collapse: collapse
+	border-spacing: 0
+
+a
+	color: inherit
+	text-decoration: none
+	&:hover
+		color: inherit
+		text-decoration: none
+
+strong, b
+	font-weight: 600
+
+em
+	font-style: italic
+
+input
+	outline: none
+	&[type="number"]
+		&::-webkit-outer-spin-button, &::-webkit-inner-spin-button
+			-webkit-appearance: none
+			margin: 0
+		-moz-appearance: textfield
+	&[type=number]
+		&::-webkit-inner-spin-button, &::-webkit-outer-spin-button
+			-webkit-appearance: none
+			margin: 0
+	font-family: $default-font
+	font-size: 16px
+
+textarea
+	outline: none
+	font-family: $default-font
+	font-size: 16px
+
+button
+	outline: none
+
+.alignleft
+	display: inline
+	float: left
+	margin-right: 1.5em
+	margin-bottom: 1.5em
+
+.alignright
+	display: inline
+	float: right
+	margin-left: 1.5em
+	margin-bottom: 1.5em
+
+.aligncenter
+	clear: both
+	display: block
+	margin-left: auto
+	margin-right: auto
+	margin-bottom: 1.5em
+
+.d_none
+	display: none !important
+
+
+body
+	font-size: 16px
+	height: 100%
+	width: 100%
+	position: relative
+	line-height: normal
+	overflow-x: hidden
+	font-family: $default-font
+	color: $color
+	background-color: #fff
+
+section, header, .section
+	height: auto
+	position: relative
+	z-index: 10
+
+#overlay
+	position: fixed
+	top: 0
+	right: 0
+	bottom: 0
+	left: 0
+	background: rgba(144, 154, 170, 0.5)
+	z-index: 90
+
+.breadcrumbs
+	width: 100%
+	height: auto
+	display: flex
+	flex-direction: row
+	line-height: 28px
+	margin-bottom: 18px
+	span
+		span
+			a
+				color: $accent
+			span
+				a
+					color: $color
+
+
+//icons
+.stripe1
+	fill: $white
+
+.theMainLogo
+	width: 290px
+	height: auto
+
+.theBurgerIcon
+	width: 16px
+	height: auto
+
+.theCarretDownIcon
+	width: 16px
+	height: auto
+
+.theSearchIcon
+	width: 22px
+	height: auto
+
+.theQuoteIcon
+	width: 27px
+	height: auto
+
+.thePhoneIcon
+	width: 16px
+	height: auto
+
+.theMailIcon
+	width: 16px
+	height: auto
+
+.theMapMarkerIcon
+	width: 11px
+	height: auto
+
+.thePrintIcon
+	width: 16px
+	height: auto
+
+.theNavLeftIcon,
+.theNavRightIcon
+	width: 6px
+	height: auto
+	.stripe1
+		fill: $grey_color
+
+.theNavBottomIcon
+	width: 6px
+	height: auto
+	.stripe1
+		fill: $color
+
+.thePlainIcon
+	width: 16px
+	height: auto
+	.stripe1
+		fill: $grey
+
+.theMailBigIcon
+	width: 56px
+	height: auto
+	.stripe1
+		fill: $black_green
+
+.theArrowLRightIcon,
+.theArrowLeftIcon
+	width: 8px
+	height: auto
+	.stripe1
+		fill: $grey
+
+.theMailMediumIcon
+	width: 48px
+	height: auto
+	.stripe1
+		fill: $black_green
+
+.theQuestionIcon
+	width: 9px
+	height: auto
+	.stripe1
+		fill: $accent
+
+.theTriangleIcon
+	width: 26px
+	height: auto
+
+.theQuoteTransparentIcon
+	width: 64px
+	height: auto
+	.stripe1
+		fill: $black_green
+
+.theQuoteTransparentIcon
+	width: 64px
+	height: auto
+	.stripe1
+		fill: $black_green
+
+
+.theAlertIcon
+	width: 12px
+	height: auto
+	.stripe1
+		fill: $black_green
+
+.theDownloadIcon
+	width: 12px
+	height: auto
+	.stripe1
+		fill: $grey_color
+
+
+
+@import "media"
