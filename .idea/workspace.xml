@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9c91632-507f-4455-8a34-4caed291c517" name="Default Changelist" comment="" />
+    <list default="true" id="c9c91632-507f-4455-8a34-4caed291c517" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +18,7 @@
             <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/main_page.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="132">
-                  <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="7" selection-end-column="8" />
+                  <caret line="6" selection-start-line="6" selection-end-line="7" selection-end-column="8" />
                   <folding>
                     <element signature="e#6#45#0#PHP" expanded="true" />
                   </folding>
@@ -46,7 +48,7 @@
             <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/template-parts/site_menus_template.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="204">
-                  <caret line="53" column="17" lean-forward="true" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+                  <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
@@ -55,7 +57,7 @@
             <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/footer.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="154">
-                  <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+                  <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
                 </state>
               </provider>
             </entry>
@@ -64,7 +66,7 @@
             <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/functions.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="454">
-                  <caret line="259" column="47" lean-forward="true" selection-start-line="259" selection-start-column="47" selection-end-line="259" selection-end-column="47" />
+                  <caret line="259" column="47" selection-start-line="259" selection-start-column="47" selection-end-line="259" selection-end-column="47" />
                 </state>
               </provider>
             </entry>
@@ -110,6 +112,9 @@
       <find>burger</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -133,6 +138,7 @@
     <option name="width" value="1936" />
     <option name="height" value="1066" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -188,6 +194,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -220,18 +227,17 @@
       <option name="presentableId" value="Default" />
       <updated>1587824309091</updated>
       <workItem from="1587824310258" duration="2040000" />
-      <workItem from="1587831347215" duration="12617000" />
+      <workItem from="1587831347215" duration="14065000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14657000" />
+    <option name="totallyTimeSpent" value="16105000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-7" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16950959" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16950959" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -247,7 +253,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="RNConsole" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3290461" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3290461" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -320,14 +326,14 @@
     <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="454">
-          <caret line="259" column="47" lean-forward="true" selection-start-line="259" selection-start-column="47" selection-end-line="259" selection-end-column="47" />
+          <caret line="259" column="47" selection-start-line="259" selection-start-column="47" selection-end-line="259" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -341,7 +347,7 @@
     <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/main_page.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="7" selection-end-column="8" />
+          <caret line="6" selection-start-line="6" selection-end-line="7" selection-end-column="8" />
           <folding>
             <element signature="e#6#45#0#PHP" expanded="true" />
           </folding>
@@ -358,7 +364,7 @@
     <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/template-parts/site_menus_template.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="53" column="17" lean-forward="true" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+          <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
         </state>
       </provider>
     </entry>
