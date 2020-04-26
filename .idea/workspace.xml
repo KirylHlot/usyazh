@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9c91632-507f-4455-8a34-4caed291c517" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c9c91632-507f-4455-8a34-4caed291c517" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,14 +9,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6321777">
+    <splitter split-orientation="horizontal" split-proportion="0.31653747">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/main_page.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="132">
-                  <caret line="6" selection-start-line="6" selection-end-line="7" selection-end-column="8" />
+                <state relative-caret-position="154">
+                  <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
                   <folding>
                     <element signature="e#6#45#0#PHP" expanded="true" />
                   </folding>
@@ -29,8 +27,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/template-parts/icons_pack.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="44">
-                  <caret line="2" column="20" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="20" />
+                <state relative-caret-position="217">
+                  <caret line="370" column="1" lean-forward="true" selection-start-line="370" selection-start-column="1" selection-end-line="370" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -38,8 +36,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/header.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="402">
-                  <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+                <state relative-caret-position="462">
+                  <caret line="37" column="10" lean-forward="true" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
                 </state>
               </provider>
             </entry>
@@ -47,26 +45,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/template-parts/site_menus_template.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/footer.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="154">
-                  <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/functions.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="454">
-                  <caret line="259" column="47" selection-start-line="259" selection-start-column="47" selection-end-line="259" selection-end-column="47" />
+                <state relative-caret-position="412">
+                  <caret line="82" column="29" lean-forward="true" selection-start-line="82" selection-start-column="29" selection-end-line="82" selection-end-column="29" />
                 </state>
               </provider>
             </entry>
@@ -78,8 +58,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/gulpfile.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="264">
-                  <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+                <state relative-caret-position="242">
+                  <caret line="47" column="61" selection-start-line="47" selection-start-column="61" selection-end-line="47" selection-end-column="61" />
                 </state>
               </provider>
             </entry>
@@ -87,8 +67,39 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/sass/main.sass">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="220">
-                  <caret line="94" column="17" selection-start-line="94" selection-start-column="17" selection-end-line="94" selection-end-column="17" />
+                <state relative-caret-position="283">
+                  <caret line="568" column="17" lean-forward="true" selection-start-line="568" selection-start-column="17" selection-end-line="568" selection-end-column="17" />
+                  <folding>
+                    <element signature="e#3620#3987#0" />
+                    <element signature="e#7117#7610#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/css/style-simple-red.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="314">
+                  <caret line="166" selection-start-line="166" selection-end-line="173" selection-end-column="52" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/css/style.basic.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="116">
+                  <caret line="412" selection-start-line="412" selection-end-line="412" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/footer.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="314">
+                  <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
                 </state>
               </provider>
             </entry>
@@ -97,7 +108,16 @@
             <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/sass/_vars.sass">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="88">
-                  <caret line="4" column="15" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="15" />
+                  <caret line="4" column="6" selection-start-line="4" selection-end-line="4" selection-end-column="6" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/functions.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="146">
+                  <caret line="161" selection-start-line="161" selection-end-line="161" />
                 </state>
               </provider>
             </entry>
@@ -110,7 +130,32 @@
     <findStrings>
       <find>carr</find>
       <find>burger</find>
+      <find>search</find>
+      <find>a.bvi-link-shortcode</find>
+      <find>sear</find>
+      <find>lef</find>
+      <find>logo</find>
+      <find>close</find>
+      <find>id</find>
+      <find>div.asl_w</find>
+      <find>proinput</find>
+      <find>asl_m</find>
+      <find>asl_w</find>
+      <find>overflow: hidden</find>
+      <find>probox</find>
+      <find>promagnifier</find>
+      <find>innericon svg</find>
+      <find>proclose</find>
+      <find>asl_content</find>
+      <find>div.asl_r.vertical</find>
+      <find>font-family: Open Sans;</find>
+      <find>div.asl_r .results .item .asl_content</find>
+      <find>overflow: hidden;</find>
+      <find>div.asl_r .results .item .asl_image</find>
     </findStrings>
+    <replaceStrings>
+      <replace>font-family: inherit;</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -118,17 +163,22 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/template-parts/icon_pack.php" />
-        <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/template-parts/icons_pack.php" />
-        <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/sass/_vars.sass" />
         <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/sass/_fonts.sass" />
         <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/main_page.php" />
         <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/footer.php" />
-        <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/header.php" />
+        <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/sass/_vars.sass" />
+        <option value="$PROJECT_DIR$/app/wp-content/plugins/button-visually-impaired/assets/css/bvi.css" />
+        <option value="$PROJECT_DIR$/app/wp-content/plugins/button-visually-impaired/assets/css/bvi.min.css" />
+        <option value="$PROJECT_DIR$/app/wp-content/plugins/button-visually-impaired/Button-visually-impaired.php" />
         <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/functions.php" />
-        <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/sass/main.sass" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/header.php" />
+        <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/template-parts/icons_pack.php" />
         <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/template-parts/site_menus_template.php" />
+        <option value="$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/css/style-simple-red.css" />
+        <option value="$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/css/style.basic.css" />
+        <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/sass/main.sass" />
       </list>
     </option>
   </component>
@@ -161,6 +211,68 @@
               <item name="usyazh.loc" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="usyazh.loc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="usyazh.loc" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="usyazh.loc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="usyazh.loc" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="ajax-search-lite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="usyazh.loc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="usyazh.loc" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="ajax-search-lite" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="usyazh.loc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="usyazh.loc" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="button-visually-impaired" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="usyazh.loc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="usyazh.loc" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="button-visually-impaired" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="usyazh.loc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="usyazh.loc" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="button-visually-impaired" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="usyazh.loc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="usyazh.loc" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="button-visually-impaired" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="bvi.css" type="620a8d5e:NestingTreeNode" />
             </path>
             <path>
               <item name="usyazh.loc" type="b2602c69:ProjectViewProjectNode" />
@@ -227,17 +339,33 @@
       <option name="presentableId" value="Default" />
       <updated>1587824309091</updated>
       <workItem from="1587824310258" duration="2040000" />
-      <workItem from="1587831347215" duration="14065000" />
+      <workItem from="1587831347215" duration="32978000" />
     </task>
+    <task id="LOCAL-00001" summary="new commit">
+      <created>1587846734037</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587846734037</updated>
+    </task>
+    <task id="LOCAL-00002" summary="26 04 night">
+      <created>1587865083299</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587865083299</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16105000" />
+    <option name="totallyTimeSpent" value="35018000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-7" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16950959" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1748401" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -250,7 +378,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3290461" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="RNConsole" order="10" />
       <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3290461" />
@@ -264,6 +392,37 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new commit" />
+    <MESSAGE value="26 04 night" />
+    <option name="LAST_COMMIT_MESSAGE" value="26 04 night" />
+  </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>F:\Server\OSPanel\domains\usyazh.loc\app</wordpressPath>
   </component>
@@ -272,20 +431,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1034">
           <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="103" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/sass/_vars.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="15" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -306,48 +451,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/sass/main.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="94" column="17" selection-start-line="94" selection-start-column="17" selection-end-line="94" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/wp-includes/general-template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+        <state relative-caret-position="-790">
+          <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
           <folding>
             <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/wp-content/plugins/button-visually-impaired/assets/css/bvi.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="3752" selection-start-line="3752" selection-end-line="3752" />
+          <folding>
+            <element signature="e#7866#8251#2" expanded="true" />
+            <element signature="e#8327#8732#2" expanded="true" />
+            <element signature="e#8812#9197#2" expanded="true" />
+            <element signature="e#9277#9662#2" expanded="true" />
+            <element signature="e#9743#10088#2" expanded="true" />
+            <element signature="e#10165#10774#2" expanded="true" />
+            <element signature="e#10848#11249#2" expanded="true" />
+            <element signature="e#11322#11759#2" expanded="true" />
+            <element signature="e#11844#12079#2" expanded="true" />
+            <element signature="e#108095#108338#2" expanded="true" />
+            <element signature="e#108353#108596#2" expanded="true" />
+            <element signature="e#108656#108857#2" expanded="true" />
+            <element signature="e#108869#109031#2" expanded="true" />
+            <element signature="e#111641#112754#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/wp-content/plugins/button-visually-impaired/assets/css/bvi.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1295">
+          <caret line="3389" column="72" selection-start-line="3389" selection-start-column="52" selection-end-line="3389" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="259" column="47" selection-start-line="259" selection-start-column="47" selection-end-line="259" selection-end-column="47" />
+        <state relative-caret-position="146">
+          <caret line="161" selection-start-line="161" selection-end-line="161" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/footer.php">
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/template-parts/icons_pack.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="20" />
+        <state relative-caret-position="242">
+          <caret line="47" column="61" selection-start-line="47" selection-start-column="61" selection-end-line="47" selection-end-column="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/main_page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" selection-start-line="6" selection-end-line="7" selection-end-column="8" />
+        <state relative-caret-position="154">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
           <folding>
             <element signature="e#6#45#0#PHP" expanded="true" />
           </folding>
@@ -356,15 +517,61 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+        <state relative-caret-position="462">
+          <caret line="37" column="10" lean-forward="true" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/template-parts/icons_pack.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="370" column="1" lean-forward="true" selection-start-line="370" selection-start-column="1" selection-end-line="370" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/sass/_vars.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="6" selection-start-line="4" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/css/style-simple-red.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="166" selection-start-line="166" selection-end-line="173" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/css/style.basic.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="412" selection-start-line="412" selection-end-line="412" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/sass/main.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="568" column="17" lean-forward="true" selection-start-line="568" selection-start-column="17" selection-end-line="568" selection-end-column="17" />
+          <folding>
+            <element signature="e#3620#3987#0" />
+            <element signature="e#7117#7610#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/template-parts/site_menus_template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+        <state relative-caret-position="412">
+          <caret line="82" column="29" lean-forward="true" selection-start-line="82" selection-start-column="29" selection-end-line="82" selection-end-column="29" />
         </state>
       </provider>
     </entry>
