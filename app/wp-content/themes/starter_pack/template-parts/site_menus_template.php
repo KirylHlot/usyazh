@@ -70,6 +70,7 @@ function top_menu() {
   </nav>
 <? }
 
+
 function hidden_menu(){?>
 <div id="hidden_menu" class="hidden_menu">
   <div class="hidden_menu_wrapper">
