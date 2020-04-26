@@ -35,4 +35,5 @@
   </head>
 <body id="body" <? body_class(); ?>>
 <? top_menu(); ?>
+<? hidden_menu(); ?>
 

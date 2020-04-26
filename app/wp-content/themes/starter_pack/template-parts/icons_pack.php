@@ -366,3 +366,15 @@ function theDownloadIcon()
 
 	return true;
 }
+
+function theCloseMenuIcon()
+{
+	echo '
+    <svg xmlns="http://www.w3.org/2000/svg" 
+      viewBox="0 0 11724 11724"
+      class="theCloseMenuIcon">
+      <polygon class="stripe1" points="763,0 5862,5099 10961,0 11724,763 6625,5862 11724,10961 10961,11724 5862,6625 763,11724 0,10961 5099,5862 0,763 "></polygon>
+    </svg>
+  ';
+	return true;
+}

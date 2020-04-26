@@ -36,6 +36,7 @@ a
 	&:hover
 		color: inherit
 		text-decoration: none
+		opacity: .9
 
 strong, b
 	font-weight: 600
@@ -86,23 +87,6 @@ button
 
 .d_none
 	display: none !important
-
-
-body
-	font-size: 16px
-	height: 100%
-	width: 100%
-	position: relative
-	line-height: normal
-	overflow-x: hidden
-	font-family: $default-font
-	color: $color
-	background-color: #fff
-
-section, header, .section
-	height: auto
-	position: relative
-	z-index: 10
 
 #overlay
 	position: fixed
@@ -241,6 +225,359 @@ section, header, .section
 	height: auto
 	.stripe1
 		fill: $grey_color
+
+
+.bvi-link-shortcode,
+.button
+	width: auto
+	height: 48px
+	background-color: $button_bg
+	padding: 0 18px
+	display: flex
+	flex-direction: row
+	justify-content: center
+	align-items: center
+	font-size: 14px
+	line-height: 17px
+	text-transform: uppercase
+	color: $white
+	cursor: pointer
+	border-radius: 4px
+	border: 1px solid transparent
+	&:hover
+		border: 1px solid $button_bg
+		background-color: transparent
+		color: $button_bg
+	&.simple_button
+		background-color: $white
+		color: $button_bg
+		border-color: $button_bg
+		&:hover
+			background-color: $button_bg
+			color: $white
+	.bvi-svg-eye
+		display: none
+
+.bvi-link-shortcode
+	&:hover
+		border: 1px solid transparent
+		background-color: $button_bg
+		color: $white
+
+.menu-item
+	&:hover
+		color: $black_green
+
+
+body
+	font-size: 16px
+	height: 100%
+	width: 100%
+	position: relative
+	line-height: normal
+	overflow-x: hidden
+	font-family: $default-font
+	color: $color
+	background-color: #000
+	&.home
+		.top_nav
+			color: $white
+			.burger
+				.theBurgerIcon
+					.stripe1
+						fill: $white
+			.logo_wrapper
+				svg
+					.stripe1
+						fill: $white
+			.top_menu_wrapper
+				.menu-item
+					&:hover
+						color: $white
+						opacity: .8
+					&.current-menu-item
+						&:before
+							background-color: $white
+			.phones_wrapper
+				.single_phone_wrapper
+					a
+					.theCarretDownIcon
+						.stripe1
+							fill: $white
+
+section, header, .section
+	height: auto
+	position: relative
+	z-index: 10
+
+.top_nav
+	width: 100%
+	height: auto
+	padding: 0 40px
+	color: $black_green
+	position: fixed
+	top: 0
+	left: 0
+	right: 0
+	z-index: 50
+	.inner_wrapper
+		width: 100%
+		height: 96px
+		display: flex
+		flex-direction: row
+		align-items: center
+		justify-content: space-between
+		border-bottom: 1px solid rgba(229, 229, 229, 0.5)
+		.burger
+			cursor: pointer
+			.theBurgerIcon
+				.stripe1
+					fill: $black_green
+		.logo_wrapper
+			width: 290px
+			height: 40px
+			display: block
+			svg, img
+				width: auto
+				height: auto
+				max-width: 100%
+				max-height: 100%
+				.stripe1
+					fill: $black_green
+		.top_menu_wrapper
+			width: auto
+			height: auto
+			display: flex
+			flex-direction: row
+			align-items: center
+			justify-content: center
+			.menu-item
+				margin-right: 40px
+				font-weight: bold
+				font-size: 14px
+				line-height: 17px
+				text-transform: uppercase
+				position: relative
+				&:last-child
+					margin-right: 0
+				&.current-menu-item
+					&:before
+						content: ''
+						position: absolute
+						width: 100%
+						height: 2px
+						bottom: -10px
+						left: 0
+						display: block
+						background-color: $black_green
+		.phones_wrapper
+			width: auto
+			height: auto
+			display: flex
+			flex-direction: row
+			align-items: center
+			position: relative
+			padding-right: 20px
+			&:hover
+				.hidden_list
+					display: flex
+			.single_phone_wrapper
+				position: relative
+				padding: 10px 0
+				a
+				.theCarretDownIcon
+					width: 7px
+					position: absolute
+					top: 50%
+					margin-top: -2px
+					right: -16px
+					.stripe1
+						fill: $black_green
+			.hidden_list
+				position: absolute
+				width: 120%
+				height: auto
+				padding: 12px 8px
+				left: 0
+				top: 100%
+				flex-direction: column
+				white-space: nowrap
+				background-color: $footer_bg
+				display: none
+				.single_phone_wrapper
+					padding-bottom: 15px
+					&:first-child
+						padding-top: 0
+					&:last-child
+						padding-bottom: 0
+		.search_button
+			width: auto
+			height: auto
+			cursor: pointer
+
+.hidden_menu
+	position: fixed
+	top: 0
+	left: 0
+	width: 100vw
+	height: 100vh
+	overflow: auto
+	display: block
+	background-color: $white
+	z-index: 51
+	.hidden_menu_wrapper
+		width: 1250px
+		margin: 0 auto
+		padding-top: 22px
+		.top_wrapper
+			width: 100%
+			height: auto
+			display: flex
+			flex-direction: row
+			align-items: center
+			position: relative
+			margin-bottom: 22px
+			.theArrowLeftIcon
+				position: absolute
+				left: -30px
+				width: 20px
+				cursor: pointer
+			.theMainLogo
+				width: 290px
+				height: auto
+				.stripe1
+					fill: $black_green
+			.close_menu
+				cursor: pointer
+				margin-left: auto
+				.theCloseMenuIcon
+					width: 20px
+					height: auto
+					display: block
+					.stripe1
+						fill: $grey_color
+		.search_line
+			width: 100%
+			height: auto
+			display: flex
+			flex-direction: row
+			justify-content: space-between
+			.button
+				width: 280px
+				height: 56px
+
+.wpdreams_asl_container
+	width: 70% !important
+	height: 56px
+	background-image: none
+	border-radius: 4px
+	border: 1px solid #E5E5E5
+	background-color: transparent
+	padding: 0
+	margin: 0
+	position: relative
+	.probox
+		width: 100%
+		height: 100%
+		padding: 0 120px 0 20px
+		margin: 0
+		background-color: transparent
+		background-image: none
+		display: flex
+		flex-direction: row
+		align-items: center
+		position: relative
+		.promagnifier
+			width: 50px
+			height: 100%
+			background-color: transparent
+			background-image: none
+			position: absolute
+			right: 0
+			display: flex
+			justify-content: center
+			align-items: center
+			.innericon
+				width: 100%
+				height: 100%
+				display: flex
+				justify-content: center
+				align-items: center
+				svg
+					width: 30px
+					height: auto
+					path
+						fill: $grey_color
+		.proinput
+			width: 100%
+			height: 100%
+			form
+				width: 100%
+				height: 100%
+				.orig
+					width: 100%
+					height: 100%
+					font-size: 16px
+					line-height: 20px
+					display: flex
+					flex-direction: row
+					align-items: center
+					padding: 0 19px
+					color: $color
+					border: none
+					top: -1px
+					&::placeholder
+						color: $grey
+		.proclose
+			width: 40px
+			height: 100%
+			position: absolute
+			right: 50px
+			cursor: pointer
+			svg
+				background: $color
+				border-radius: 50%
+				position: absolute
+				top: 50%
+				width: 20px
+				height: 20px
+				margin-top: -10px
+				left: 50%
+				margin-left: -10px
+				fill: #fefefe
+				padding: 4px
+
+div.asl_r.vertical
+	padding: 0
+
+.resdrg
+	background-color: $white
+	.item
+		.asl_content
+			overflow: hidden
+			width: 100%
+			height: auto
+			background: transparent
+			margin: 0
+			display: flex
+			flex-direction: row
+			align-items: center
+			padding: 8px 10px
+			.asl_image
+				margin-right: 38px
+			h3
+				margin: 0
+				padding: 0
+				display: inline
+				line-height: inherit
+				.asl_res_url
+				.overlap
+			.etc
+			.asl_desc
+				margin-top: 4px
+				font-size: 12px
+				line-height: 18px
+
 
 
 

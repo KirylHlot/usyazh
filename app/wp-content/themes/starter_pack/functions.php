@@ -156,9 +156,9 @@ if( function_exists('acf_add_options_page') ) {
 
 function starter_pack_scripts() {
 
-	if(!is_admin()){
-		wp_deregister_script('jquery');
-	};
+//	if(!is_admin()){
+//		wp_deregister_script('jquery');
+//	};
 
 	wp_enqueue_style( 'starter_pack-style', get_stylesheet_uri() );
 	//custom styles

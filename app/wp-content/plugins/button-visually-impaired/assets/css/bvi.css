@@ -3385,22 +3385,10 @@ html body #bvi-panel-show .bvi-images.bvi-images-eye {
   height: 32px;
 }
 html body a.bvi-link-widget, html body a.bvi-link-shortcode {
-  -webkit-transition: background-color 0.2s ease-out;
-  transition: background-color 0.2s ease-out;
-  cursor: pointer;
-  border-radius: 2px;
-  display: inline-block;
-  padding: 5px 10px;
-  vertical-align: middle;
-  text-decoration: none;
+
 }
 html body a.bvi-link-widget .bvi-svg-eye, html body a.bvi-link-shortcode .bvi-svg-eye {
-  display: inline-block;
-  overflow: visible;
-  width: 1.125em;
-  height: 1em;
-  font-size: 2em;
-  vertical-align: middle;
+
 }
 
 /*# sourceMappingURL=bvi.css.map */

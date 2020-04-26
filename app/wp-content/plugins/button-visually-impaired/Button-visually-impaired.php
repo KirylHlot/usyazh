@@ -142,7 +142,7 @@ class bvi_plugin {
 	public function frontend_assets() {
 		wp_register_style( 'bvi-style', BVI_PLUGIN_URL_CSS . 'bvi.min.css', '2.0', $this->version );
 
-		$bvi_style = "a.bvi-link-widget, a.bvi-link-shortcode {color: {$this->get_option['bvi_link_color']} !important; background-color: {$this->get_option['bvi_link_bg']} !important;}";
+		$bvi_style = "";
 		wp_enqueue_style( 'bvi-style' );
 		wp_add_inline_style( 'bvi-style', $bvi_style );
 
