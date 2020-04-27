@@ -1,6 +1,16 @@
-<li <?php if (!has_post_thumbnail()) { ?> class="no-img"<?php } ?>>
-   <?php if ( has_post_thumbnail() ) { the_post_thumbnail('alm-thumbnail'); }?>
-   <h3><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h3>
-   <p class="entry-meta"><?php the_time("F d, Y"); ?></p>
-   <?php the_excerpt(); ?>
-</li>
+<? 
+	$categories = get_the_category();
+	$cat_name = $categories[0] -> name;
+	$page_id = get_the_ID();
+?>
+<a href="<? the_permalink($page_id); ?>" class="preview_item">
+    <div class="thumbnail"
+          style="background-image: url('<?= get_the_post_thumbnail_url($page_id); ?>')"></div>
+    <div class="content">
+      <div class="category">
+				<?= $cat_name; ?>
+      </div>
+      <div class="title"><? the_field( 'main_h1', $page_id ); ?></div>
+      <div class="date"><?= get_the_date( 'j F Y', $page_id ) ?></div>
+    </div>
+  </a>

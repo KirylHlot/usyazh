@@ -35,6 +35,8 @@
     <div class="desc thank">Мы свяжемся с вами в течение рабочего дня.</div>
   </div>
 </div>
+
+
 <div id="claim_popup" class="claim_popup popup d_none">
   <div class="close_callback_popup">
 		<? theCloseMenuIcon(); ?>
@@ -59,7 +61,7 @@
   </div>
 </div>
 <div id="overlay" class="d_none"></div>
-
+<? modal_search_template(); ?>
   <?php wp_footer(); ?>
 </body>
 </html>

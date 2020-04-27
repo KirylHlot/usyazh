@@ -258,4 +258,5 @@ function yoast_seo_canonical_change_woocom_shop( $canonical ) {
 add_filter( 'wpseo_canonical', 'yoast_seo_canonical_change_woocom_shop', 10, 1 );
 
 include_once ('template-parts/icons_pack.php');
-include_once ('template-parts/site_menus_template.php');
+include_once( 'template-parts/site_templates.php' );
+include_once( 'template-parts/common_section_items.php' );

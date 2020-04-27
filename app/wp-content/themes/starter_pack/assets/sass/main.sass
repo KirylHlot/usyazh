@@ -95,7 +95,7 @@ button
 	bottom: 0
 	left: 0
 	background: rgba(144, 154, 170, 0.5)
-	z-index: 90
+	z-index: 100
 
 .breadcrumbs
 	width: 100%
@@ -226,7 +226,7 @@ button
 	.stripe1
 		fill: $grey_color
 
-
+.alm-load-more-btn,
 .bvi-link-shortcode,
 .button
 	width: auto
@@ -244,6 +244,7 @@ button
 	cursor: pointer
 	border-radius: 4px
 	border: 1px solid transparent
+	transition: all .3s ease-in-out
 	&:hover
 		border: 1px solid $button_bg
 		background-color: transparent
@@ -258,6 +259,19 @@ button
 	.bvi-svg-eye
 		display: none
 
+.alm-load-more-btn
+	background: transparent !important
+	color: $accent !important
+	border: 1px solid $accent !important
+	&:hover
+		background: $accent !important
+		color: $white !important
+
+
+
+
+
+
 .bvi-link-shortcode
 	&:hover
 		border: 1px solid transparent
@@ -268,6 +282,9 @@ button
 	&:hover
 		color: $black_green
 
+.main_wrapper
+	width: 1216px
+	margin: 0 auto
 
 body
 	font-size: 16px
@@ -278,10 +295,16 @@ body
 	overflow-x: hidden
 	font-family: $default-font
 	color: $color
-	background-color: #000
+	background-color: $white
+	padding-top: 96px
+	&.show_menu
+		.hidden_menu
+			left: 0
 	&.home
+		padding-top: 0
 		.top_nav
 			color: $white
+			background-color: transparent
 			.burger
 				.theBurgerIcon
 					.stripe1
@@ -304,7 +327,31 @@ body
 					.theCarretDownIcon
 						.stripe1
 							fill: $white
-
+		&.bg_white
+			.top_nav
+				background-color: $white
+				color: $accent
+				a
+					&:hover
+						color: $accent
+						opacity: .8
+				svg
+					.stripe1
+						fill: $accent !important
+				.bvi-link-shortcode
+					&:hover
+						color: $white
+				.phones_wrapper
+					.hidden_list
+						a
+							color: $white
+							&:hover
+								color: $white
+	&.search_modal
+		.wpdreams_asl_results
+			border: 1px solid $grey_color
+		.modal_search_wrapper
+			top: 0
 section, header, .section
 	height: auto
 	position: relative
@@ -415,20 +462,22 @@ section, header, .section
 			height: auto
 			cursor: pointer
 
+
 .hidden_menu
 	position: fixed
 	top: 0
-	left: 0
+	left: -110%
 	width: 100vw
 	height: 100vh
 	overflow: auto
 	display: block
 	background-color: $white
-	z-index: 51
+	z-index: 101
+	transition: left .5s ease-in-out
 	.hidden_menu_wrapper
 		width: 1250px
 		margin: 0 auto
-		padding-top: 22px
+		padding: 22px 0
 		.top_wrapper
 			width: 100%
 			height: auto
@@ -437,17 +486,21 @@ section, header, .section
 			align-items: center
 			position: relative
 			margin-bottom: 22px
-			.theArrowLeftIcon
+			.arrow_left_icon
 				position: absolute
-				left: -30px
-				width: 20px
+				left: -35px
+				width: auto
+				height: auto
 				cursor: pointer
+				.theArrowLeftIcon
+					width: 20px
+					height: auto
 			.theMainLogo
 				width: 290px
 				height: auto
 				.stripe1
 					fill: $black_green
-			.close_menu
+			.close_icon_wrapper
 				cursor: pointer
 				margin-left: auto
 				.theCloseMenuIcon
@@ -465,6 +518,135 @@ section, header, .section
 			.button
 				width: 280px
 				height: 56px
+		.partners_list
+			width: 100%
+			height: auto
+			display: flex
+			flex-direction: row
+			a
+				display: block
+				width: 176px
+				height: auto
+				margin-right: 20px
+				margin-bottom: 20px
+				img
+					display: block
+					width: auto
+					height: auto
+					max-width: 100%
+					max-height: 100%
+
+.menu_wrapper
+	width: 100%
+	height: auto
+	display: flex
+	flex-direction: row
+	justify-content: space-between
+	padding: 72px 0 0
+	margin-bottom: 100px
+	.menu_column
+		width: 22%
+		&:last-child
+			padding-left: 30px
+		.title
+			font-weight: 500
+			line-height: 20px
+			text-transform: uppercase
+			margin-bottom: 20px
+			display: block
+		ul
+			width: 100%
+			height: auto
+			margin-bottom: 30px
+			&:last-child
+				margin-bottom: 0
+			li
+				color: $grey
+				margin-bottom: 5px
+				line-height: 32px
+				&:hover
+					color: $color
+				&:last-child
+					margin-bottom: 0
+		.phones_wrapper
+			width: 100%
+			height: auto
+			position: relative
+			margin-bottom: 20px
+			&:hover
+				.hidden_list
+					display: block
+			.thePhoneIcon
+				position: absolute
+				top: 0
+				left: -30px
+				.stripe1
+					fill: $color
+			span
+				font-weight: 500
+				font-size: 9px
+				line-height: 11px
+				color: $color
+				text-transform: uppercase
+			.single_phone_wrapper
+				width: auto
+				height: auto
+				display: flex
+				flex-direction: row
+				position: relative
+				.phone
+					position: relative
+					display: flex
+					flex-direction: row
+					align-items: center
+					font-weight: 600
+					.theCarretDownIcon
+						width: 7px
+						position: absolute
+						right: -20px
+						.stripe1
+							fill: $color
+			.hidden_list
+				padding: 8px 10px
+				background-color: $grey_color
+				display: none
+				position: absolute
+				left: 0
+				top: 100%
+				width: 100%
+				z-index: 50
+				.single_phone_wrapper
+					padding: 6px 0
+		.mail_wrapper
+			width: 100%
+			height: auto
+			position: relative
+			margin-bottom: 16px
+			display: flex
+			flex-direction: row
+			align-items: center
+			.email
+				color: $grey
+				line-height: 32px
+				position: relative
+			.theMailIcon
+				width: 16px
+				height: auto
+				position: absolute
+				left: -27px
+				.stripe1
+					fill: $color
+		.adress_wrapper
+			width: 100%
+			height: auto
+			position: relative
+			.theMapMarkerIcon
+				position: absolute
+				left: -24px
+				.stripe1
+					fill: $color
+			span
+				color: $grey
 
 .wpdreams_asl_container
 	width: 70% !important
@@ -547,6 +729,7 @@ section, header, .section
 				fill: #fefefe
 				padding: 4px
 
+
 div.asl_r.vertical
 	padding: 0
 
@@ -577,6 +760,823 @@ div.asl_r.vertical
 				margin-top: 4px
 				font-size: 12px
 				line-height: 18px
+
+.ovf_hidden
+	overflow: hidden !important
+
+
+.modal_search_wrapper
+	width: 100%
+	height: 136px
+	display: flex
+	justify-content: center
+	align-items: center
+	position: fixed
+	top: -110%
+	left: 0
+	background-color: $white
+	z-index: 101
+	color: $grey
+	transition: top .3s ease-in-out
+	.ms_wrapper
+		width: 1160px
+		margin: 0 auto
+		display: flex
+		flex-direction: row
+		align-items: center
+		justify-content: space-between
+		position: relative
+		.button
+			width: 128px
+			height: 52px
+		.close_search_popup
+			width: auto
+			height: auto
+			cursor: pointer
+			position: absolute
+			right: -50px
+			.theCloseMenuIcon
+				width: 25px
+				height: auto
+				.stripe1
+					fill: $grey_color
+		.wpdreams_asl_container
+			width: 100%!important
+			border: none
+			.promagnifier
+				background-color: $accent
+				width: 128px
+				display: flex
+				justify-content: center
+				align-items: center
+				border-radius: 4px
+				overflow: hidden
+				border: 1px solid $accent
+				&:hover
+					background-color: transparent
+					&:before
+						color: $accent
+				&:before
+					content: 'НАЙТИ'
+					display: block
+					color: $white
+					position: absolute
+				svg
+					display: none
+			.proclose
+				right: 133px
+				z-index: 101
+
+.popup
+	width: 570px
+	height: auto
+	border: 1px solid #909AAA
+	background-color: $white
+	padding: 5.5vh 5.4vw
+	position: fixed
+	top: 10%
+	left: 50%
+	margin-left: -285px
+	z-index: 101
+	text-align: center
+	.close_callback_popup
+		position: absolute
+		background-color: $close_bg
+		cursor: pointer
+		width: 40px
+		height: 40px
+		display: flex
+		justify-content: center
+		align-items: center
+		top: 0
+		right: 0
+		.theCloseMenuIcon
+			width: 20px
+			height: auto
+			.stripe1
+				fill: $white
+	.main_content, .alert_done
+		width: 100%
+		height: auto
+		.h2_title
+			margin-bottom: 3vh
+			font-weight: bold
+			font-size: 32px
+			line-height: 39px
+			text-align: center
+			text-transform: uppercase
+		.desc
+			font-size: 18px
+			line-height: 28px
+			color: $grey
+			margin-bottom: 3vh
+			&.thank
+				margin-bottom: 0
+		.form_wrapper
+			width: 100%
+			height: auto
+			display: block
+			text-align: center
+			input, textarea
+				width: 100%
+				height: 56px
+				background-color: #EFEEEE
+				margin-bottom: 3vh
+				padding: 0 20px
+				border: none
+				color: $color
+				&::placeholder
+					color: $grey
+			textarea
+				height: 130px
+				margin-bottom: 3vh
+				padding: 14px 20px
+				resize: none
+			.button
+				width: 100%
+				max-width: none
+				font-weight: bold
+
+.mp_header
+	width: 100%
+	height: auto
+	padding: 180px 0 227px
+	background-size: cover
+	background-repeat: no-repeat
+	background-position: top
+	.main_wrapper
+		position: relative
+		color: $white
+		.theQuoteIcon
+			width: 27px
+			height: auto
+			position: absolute
+			left: -160px
+			top: 20px
+		.pretitle
+			font-weight: 500
+			font-size: 9px
+			line-height: 11px
+			text-transform: uppercase
+			margin-bottom: 25px
+		.h1_title
+			font-weight: 500
+			font-size: 40px
+			line-height: 49px
+			margin-bottom: 50px
+		.content
+			width: 80%
+			margin-right: auto
+			font-weight: 500
+			font-size: 15px
+			line-height: 27px
+			margin-bottom: 50px
+		.button
+			width: 176px
+			height: 48px
+			&:hover
+				border-color: $white
+				color: $white
+
+.production
+	width: 100%
+	height: auto
+	padding: 57px 0 114px
+	.main_wrapper
+		position: relative
+
+.title_line
+	width: 100%
+	height: auto
+	display: flex
+	flex-direction: row
+	justify-content: space-between
+	align-items: center
+	margin-bottom: 53px
+	.h2_title
+		font-size: 30px
+		line-height: 37px
+	.remark
+		display: block
+		font-size: 10px
+		color: $grey
+
+
+.the_production_list
+	width: 100%
+	height: auto
+	display: flex
+	flex-direction: row
+	flex-wrap: wrap
+	.item_wrapper
+		width: 300px
+		height: 224px
+		background: #FFFFFF
+		border: 1px solid #E5E5E5
+		text-align: center
+		overflow: hidden
+		position: relative
+		z-index: 1
+		transition: all .1s ease-in-out
+		&:hover
+			box-shadow: 0 0 24px rgba(0, 0, 0, 0.16)
+			z-index: 2
+			border-color: transparent
+		.thumbnail
+			width: 100%
+			height: 155px
+			margin-bottom: 10px
+			background-size: contain
+			background-position: center
+			background-repeat: no-repeat
+			overflow: hidden
+		.title
+			font-weight: 500
+			font-size: 16px
+			line-height: 20px
+			text-align: center
+
+.our_service
+	background-color: $alter_bg
+	padding: 80px 0
+	.main_wrapper
+		display: flex
+		flex-direction: row
+		justify-content: space-between
+		.left_part
+			width: 220px
+			position: relative
+			.h2_title
+				font-weight: 500
+				font-size: 30px
+				line-height: 37px
+				margin-bottom: 55px
+			.dots_list
+				width: 100%
+				height: auto
+				padding-left: 22px
+				margin-bottom: 40px
+				.dots_item
+					width: 100%
+					margin-bottom: 24px
+					font-weight: 500
+					line-height: 20px
+					cursor: pointer
+					position: relative
+					display: flex
+					flex-direction: row
+					align-items: center
+					color: $grey
+					&:last-child
+						margin-bottom: 0
+					&.active
+						color: $accent
+						&:before
+							content: ''
+							display: block
+							position: absolute
+							height: 100%
+							width: 2px
+							background-color: $accent
+							left: -20px
+					&:hover
+						color: $accent
+			.remark
+				font-size: 10px
+				color: $accent
+		.right_part
+			width: 900px
+			height: auto
+			position: relative
+			.our_service_carousel_navs
+				width: auto
+				height: auto
+				display: flex
+				flex-direction: row
+				position: absolute
+				top: 48px
+				right: 37px
+				z-index: 2
+				.navs
+					width: 20px
+					height: 20px
+					background: transparent
+					border-radius: 2px
+					display: flex
+					align-items: center
+					justify-content: center
+					cursor: pointer
+					&:hover
+						background-color: $accent
+						svg
+							.stripe1
+								fill: $white
+					&.our_service_carousel_left_nav
+						margin-right: 20px
+					svg
+						width: 6px
+						height: auto
+						display: block
+						.stripe1
+							fill: $grey_color
+			.our_service_carousel
+				width: 100%
+				height: auto
+				z-index: 1
+				.our_service_item
+					width: 100%
+					height: auto
+					padding: 40px 0 0
+					background-color: $white
+					.top_part
+						padding: 0 70px 40px 40px
+						display: flex
+						flex-direction: row
+						justify-content: space-between
+						height: 270px
+						overflow: hidden
+						.image_wrapper
+							width: 240px
+							height: 140px
+							background-position: center
+							background-size: cover
+							background-repeat: no-repeat
+							overflow: hidden
+							position: relative
+						.content_wrapper
+							width: 520px
+							.h3_title
+								font-weight: 500
+								font-size: 26px
+								line-height: 32px
+								margin-bottom: 30px
+							.content
+								font-size: 15px
+								line-height: 27px
+								color: $grey
+					.button
+						border-radius: 0
+						font-weight: 500
+						font-size: 10px
+						line-height: 12px
+						align-items: center
+						svg
+							width: 8px
+							height: auto
+							display: block
+							margin-left: 12px
+							position: relative
+							top: -1px
+							.stripe1
+								fill: $white
+						&:hover
+							background-color: $accent
+							opacity: .8
+							color: $white
+
+.about_organization
+	width: 100%
+	height: auto
+	.inner_wrapper
+		height: auto
+		width: 1560px
+		margin-left: auto
+		display: flex
+		flex-direction: row
+		justify-content: space-between
+		.left_part
+			width: 37%
+			padding-top: 50px
+			.h2_title
+				font-size: 30px
+				line-height: 42px
+				margin-bottom: 30px
+			.desc
+				font-size: 15px
+				line-height: 25px
+				color: $grey
+				margin-bottom: 90px
+			.buttons_line
+				width: 100$accent
+				height: auto
+				display: flex
+				flex-direction: row
+				align-items: center
+				.button
+					margin-right: 32px
+					width: 176px
+				.simple_button
+					margin-right: 0
+					width: 254px
+		.video_wrapper
+			width: 60%
+			height: 550px
+			iframe
+				width: 100%
+				height: 100%
+
+.remark
+	font-weight: 500
+	font-size: 9px
+	line-height: 11px
+	text-transform: uppercase
+	margin-bottom: 25px
+	display: block
+
+.news
+	width: 100%
+	height: auto
+	background-color: $alter_bg
+	padding: 80px 0
+	.main_wrapper
+		.title_line
+			.h2_title
+				margin-right: 70px
+			.simple_link_wrapper
+				margin-right: auto
+				display: flex
+				flex-direction: row
+				align-items: center
+				cursor: pointer
+				text-transform: uppercase
+				font-weight: 500
+				font-size: 10px
+				line-height: 12px
+				color: $grey
+				&:hover
+					color: $accent
+					.thePlainIcon
+						.stripe1
+							fill: $accent
+			.thePlainIcon
+				margin-right: 20px
+
+		.preview_list, .alm-reveal
+			width: 100%
+			height: auto
+			display: flex
+			flex-direction: row
+			justify-content: space-around
+			margin-bottom: 30px
+			flex-wrap: wrap
+
+		.alm-btn-wrap
+			width: 100%
+			height: auto
+			padding: 20px 0 0
+			margin: 0
+
+.ajax-load-more-wrap
+	width: 100%
+	height: auto
+	.alm-reveal
+		width: 100%
+		height: auto
+		margin-bottom: 0 !important
+		.preview_item
+			margin-bottom: 30px
+
+.big_preview_item
+	width: 48%
+	height: 380px
+	background-size: cover
+	background-repeat: no-repeat
+	background-position: center
+	position: relative
+	.content
+		width: 50%
+		height: 230px
+		padding: 24px 24px 50px
+		position: absolute
+		right: 0
+		bottom: 0
+		background-color: $white
+		overflow: hidden
+		.category
+			font-weight: 500
+			font-size: 9px
+			line-height: 11px
+			text-transform: uppercase
+			color: $grey
+			margin-bottom: 24px
+		.title
+			font-size: 18px
+			line-height: 22px
+		.date
+			font-size: 12px
+			line-height: 15px
+			color: $grey
+			position: absolute
+			bottom: 24px
+			left: 24px
+
+.preview_item
+	width: 24%
+	height: 380px
+	.thumbnail
+		width: 100%
+		height: 150px
+		background-position: center
+		background-size: cover
+		background-repeat: no-repeat
+	.content
+		height: 230px
+		background-color: $white
+		padding: 24px 24px 50px
+		position: relative
+		.category
+			font-weight: 500
+			font-size: 9px
+			line-height: 11px
+			text-transform: uppercase
+			color: $grey
+			margin-bottom: 24px
+		.title
+			font-size: 18px
+			line-height: 22px
+		.date
+			font-size: 12px
+			line-height: 15px
+			color: $grey
+			position: absolute
+			bottom: 24px
+			left: 24px
+
+
+.chiefs
+	width: 100%
+	height: auto
+	padding: 80px 0
+	position: relative
+	&:after
+		content: ''
+		display: block
+		width: 95%
+		height: 1px
+		background-color: rgba(229, 229, 229, 0.5)
+		position: absolute
+		bottom: 0
+		left: 2.5%
+	.main_wrapper
+		.title_line
+		.carousel_wrapper
+			width: 100%
+			height: auto
+			position: relative
+			.chiefs_carousel_navs
+				width: 100%
+				height: 0
+				position: absolute
+				left: 0
+				display: flex
+				flex-direction: row
+				justify-content: space-between
+				z-index: 2
+				top: 50%
+				margin-top: -20px
+				.navs
+					width: 40px
+					height: 40px
+					background-color: $white
+					display: flex
+					justify-content: center
+					align-items: center
+					cursor: pointer
+					&:hover
+						background-color: $accent
+						svg
+							.stripe1
+								fill: $white
+					svg
+						width: 8px
+						.stripe1
+							fill: $grey_color
+			.chiefs_carousel
+				z-index: 1
+				.carousel_item
+					height: 384px
+					background-repeat: no-repeat
+					background-size: cover
+					background-position: center
+					color: $white
+					position: relative
+					overflow: hidden
+					&:hover
+						.hidden_part
+							bottom: 0
+						.visible_part
+							top: 40px
+					.visible_part
+						padding: 0 40px
+						position: absolute
+						width: 100%
+						left: 0
+						top: 260px
+						transition: top .3s ease-in-out
+						.position
+							font-weight: 500
+							font-size: 12px
+							line-height: 15px
+							text-transform: uppercase
+							margin-bottom: 20px
+						.name
+							font-weight: 500
+							font-size: 18px
+							line-height: 22px
+							margin-bottom: 40px
+					.hidden_part
+						position: absolute
+						width: 100%
+						height: auto
+						left: 0
+						bottom: -100%
+						transition: bottom .3s ease-in-out
+						.phone
+							font-weight: 500
+							font-size: 18px
+							line-height: 22px
+							padding: 0 40px 40px
+							.phone_title
+								font-style: normal
+								font-weight: 500
+								font-size: 12px
+								line-height: 15px
+								margin-bottom: 12px
+							.number
+								br
+									margin-bottom: 10px
+						.button
+							width: 100%
+							border-radius: 0
+							&:hover
+								background-color: $accent
+								color: $white
+								opacity: .8
+
+.partners
+	padding: 65px 0 35px
+	.main_wrapper
+		.carousel_wrapper
+			width: auto
+			height: auto
+			position: relative
+			.partners_carousel_navs
+				position: absolute
+				width: 100%
+				height: 0
+				top: 50%
+				margin-top: -20px
+				left: 0
+				display: flex
+				flex-direction: row
+				justify-content: space-between
+				z-index: 2
+				cursor: pointer
+				.navs
+					width: 40px
+					height: 40px
+					background-color: $white
+					display: flex
+					justify-content: center
+					align-items: center
+					cursor: pointer
+					&:hover
+						background-color: $accent
+						svg
+							.stripe1
+								fill: $white
+					svg
+						width: 8px
+						.stripe1
+							fill: $grey_color
+			.partners_carousel
+				width: 100%
+				height: auto
+				position: relative
+				z-index: 1
+				.carousel_item
+					width: auto
+					height: 196px
+					display: flex
+					justify-content: center
+					align-items: center
+					img
+						display: block
+						width: auto
+						height: auto
+						max-width: 80%
+						max-height: 80%
+
+.contacts
+	width: 100%
+	height: auto
+	background-color: $alter_bg
+	.inner_wrapper
+		width: 1568px
+		margin-left: auto
+		display: flex
+		flex-direction: row
+		justify-content: space-between
+		.left_part
+			width: 38%
+			padding: 50px 0 30px
+			.adress_wrapper
+				font-size: 30px
+				line-height: 42px
+				padding-bottom: 35px
+				border-bottom: 1px solid #E5E5E5
+				margin-bottom: 40px
+			.phones_wrapper
+				display: flex
+				flex-direction: row
+				justify-content: space-between
+				flex-wrap: wrap
+				.ph_wrap
+					width: 48%
+					margin-bottom: 10px
+				.title
+					font-weight: 500
+					font-size: 9px
+					line-height: 11px
+					text-transform: uppercase
+					margin-bottom: 10px
+				.phone_list
+					width: 100%
+					height: auto
+					margin-bottom: 14px
+					li
+						width: 100%
+						display: flex
+						flex-direction: row
+						margin-bottom: 10px
+						align-items: flex-end
+						&:last-child
+							margin-bottom: 0
+						.type
+							font-size: 12px
+							margin-right: 8px
+							position: relative
+							top: -4px
+						.number
+							font-size: 15px
+							line-height: 25px
+			.wrapper
+				width: 100%
+				height: auto
+				display: flex
+				flex-direction: row
+				justify-content: space-between
+				margin-bottom: 50px
+				.email_wrapper, .skype_wrapper
+					width: 48%
+					font-size: 15px
+					line-height: 25px
+					.title
+						font-weight: 500
+						font-size: 9px
+						line-height: 11px
+						margin-bottom: 10px
+						text-transform: uppercase
+		.button
+			width: 235px
+			font-size: 12px
+			background-color: transparent
+			&:hover
+				background-color: $accent
+				color: $white
+		.right_part
+			width: 61%
+			height: 634px
+			position: relative
+			overflow: hidden
+			iframe
+				width: 100%
+				height: 100%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
