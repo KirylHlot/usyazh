@@ -62,6 +62,11 @@ function top_menu() {
 				endif;
 				?>
       </div>
+
+      <div class="callback">
+        <? thePhoneIcon(); ?>
+      </div>
+
       <div class="search_button" id="show_search_popup">
         <? theSearchIcon(); ?>
       </div>
@@ -69,6 +74,7 @@ function top_menu() {
     </div>
   </nav>
 <? }
+
 function hidden_menu(){?>
 <div id="hidden_menu" class="hidden_menu">
   <div class="hidden_menu_wrapper">
@@ -77,6 +83,7 @@ function hidden_menu(){?>
 	      <? theArrowLeftIcon(); ?>
       </div>
       <? theMainLogo(); ?>
+	    <?php echo do_shortcode( '[bvi text="Версия для слабовидящих"]' ); ?>
       <div class="close_menu close_icon_wrapper">
 	      <? theCloseMenuIcon(); ?>
       </div>

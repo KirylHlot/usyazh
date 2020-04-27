@@ -42,7 +42,7 @@ div.asl_w .probox .proinput input:-moz-placeholder {
 div.asl_w .probox .proinput input.autocomplete {
     font-family: inherit;
     /* Must match box height */
-    margin-top: -56px !important;
+    margin-top: -56px;
 }
 
 div.asl_w .probox .proloading,

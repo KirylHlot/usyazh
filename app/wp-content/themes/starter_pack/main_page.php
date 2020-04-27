@@ -48,7 +48,7 @@
 						$query->the_post(); ?>
             <div class="dots_item <?= $counter ==0?'active':''; ?>"><? the_field( 'main_h1' ); ?></div>
 						<?
-            $counter++;
+						$counter++;
 					};
 					wp_reset_postdata();
 					?>
@@ -64,33 +64,33 @@
 
         <div class="our_service_carousel owl-carousel">
 
-				<?
-				while ( $query->have_posts() ) {
-					$query->the_post(); ?>
-          <div class="our_service_item">
+					<?
+					while ( $query->have_posts() ) {
+						$query->the_post(); ?>
+            <div class="our_service_item">
 
-            <div class="top_part">
-              <div class="image_wrapper"
-              style="background-image: url('<? the_post_thumbnail_url(); ?>')"
-              ></div>
-              <div class="content_wrapper">
-                <h3 class="h3_title"><? the_field( 'main_h1' ); ?></h3>
-                <div class="content">
-	                <?=
-	                wpautop(mb_substr(strip_tags(get_the_content()), 0, 250, 'UTF-8') . '...');
-	                ?>
+              <div class="top_part">
+                <div class="image_wrapper"
+                     style="background-image: url('<? the_post_thumbnail_url(); ?>')"
+                ></div>
+                <div class="content_wrapper">
+                  <h3 class="h3_title"><? the_field( 'main_h1' ); ?></h3>
+                  <div class="content">
+										<?=
+										wpautop(mb_substr(strip_tags(get_the_content()), 0, 250, 'UTF-8') . '...');
+										?>
+                  </div>
                 </div>
               </div>
-            </div>
-            <a href="<? the_permalink(); ?>" class="button">
-              Подробнее об услуге
-            <? theArrowLRightIcon(); ?>
-            </a>
+              <a href="<? the_permalink(); ?>" class="button">
+                Подробнее об услуге
+								<? theArrowLRightIcon(); ?>
+              </a>
 
-          </div>
-        <? };
-				wp_reset_postdata();
-				?>
+            </div>
+					<? };
+					wp_reset_postdata();
+					?>
 
 
 
@@ -110,7 +110,7 @@
         </div>
       </div>
       <div class="video_wrapper">
-        <? the_field('mp_video', $page_id ); ?>
+				<? the_field('mp_video', $page_id ); ?>
       </div>
     </div>
   </section>
@@ -120,38 +120,38 @@
       <div class="title_line">
         <h2 class="h2_title"><? the_field( 'pressa_h2', $page_id ) ?></h2>
         <div class="simple_link_wrapper subscribe">
-          <? thePlainIcon(); ?>
+					<? thePlainIcon(); ?>
           подписаться на рассылку
         </div>
         <a href="/about/pressa-o-nas/" class="remark">Все публикации</a>
       </div>
       <div class="preview_list">
 
-	      <?
-	      $offset = 3;
-	      $query = new WP_Query( array(
-		      'posts_per_page' => $offset,
-		      'category__in'   => array(13,6,3,8),
-		      'post_status'    => 'publish',
-		      'order'          => 'DESC'
-	      ) );
+				<?
+				$offset = 3;
+				$query = new WP_Query( array(
+					'posts_per_page' => $offset,
+					'category__in'   => array(13,6,3,8),
+					'post_status'    => 'publish',
+					'order'          => 'DESC'
+				) );
 
-	      $counter = 0;
-	      while ( $query->have_posts() ) {
-		      $query->the_post();
-		      $categories = get_the_category();
-		      $cat_name = $categories[0] -> name;
-		      if($counter == 0) {
-			      previewItemBig(get_the_ID(), $cat_name);
-		      }else{
-			      previewItem(get_the_ID(), $cat_name);
-          }
-		      $counter++;
-	      };
-	      wp_reset_postdata();
-	      ?>
+				$counter = 0;
+				while ( $query->have_posts() ) {
+					$query->the_post();
+					$categories = get_the_category();
+					$cat_name = $categories[0] -> name;
+					if($counter == 0) {
+						previewItemBig(get_the_ID(), $cat_name);
+					}else{
+						previewItem(get_the_ID(), $cat_name);
+					}
+					$counter++;
+				};
+				wp_reset_postdata();
+				?>
       </div>
-	    <? echo do_shortcode('[ajax_load_more container_type="div" scroll="false" post_type="post" offset="' . $offset . '" posts_per_page="8" category="ideolog-meropriyat,vse-meropriyatiya,pressa-o-nas,profsoyznye-meropriyatiya" pause="true" button_label="Загрузить еще"]');  ?>
+			<? echo do_shortcode('[ajax_load_more container_type="div" scroll="false" post_type="post" offset="' . $offset . '" posts_per_page="8" category="ideolog-meropriyat,vse-meropriyatiya,pressa-o-nas,profsoyznye-meropriyatiya" pause="true" button_label="Загрузить еще"]');  ?>
     </div>
   </section>
   <section id="chiefs" class="chiefs">
@@ -166,11 +166,11 @@
           <div class="chiefs_carousel_right_nav navs"><? theNavRightIcon(); ?></div>
         </div>
         <div class="chiefs_carousel owl-carousel">
-	        <?
-	        if( have_rows('chiefs_list', 23) ):
-		        while ( have_rows('chiefs_list', 23) ) : the_row();?>
+					<?
+					if( have_rows('chiefs_list', 23) ):
+						while ( have_rows('chiefs_list', 23) ) : the_row();?>
               <div class="carousel_item"
-              style="background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.76) 100%), url('<?= get_sub_field('image')['sizes']['medium_large']; ?>');">
+                   style="background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.76) 100%), url('<?= get_sub_field('image')['sizes']['medium_large']; ?>');">
                 <div class="visible_part">
                   <div class="position"><?= get_sub_field('position'); ?></div>
                   <div class="name"><?= get_sub_field('name'); ?></div>
@@ -184,9 +184,9 @@
                   <div class="button claim">написать сообщение</div>
                 </div>
               </div>
-		        <? endwhile;
-	        endif;
-	        ?>
+						<? endwhile;
+					endif;
+					?>
         </div>
       </div>
 
@@ -204,97 +204,97 @@
           <div class="partners_carousel_right_nav navs"><? theNavRightIcon(); ?></div>
         </div>
         <div class="partners_carousel owl-carousel">
-	        <?
-	        if( have_rows('partners_list', 44) ):
-		        while ( have_rows('partners_list',44) ) : the_row();?>
+					<?
+					if( have_rows('partners_list', 44) ):
+						while ( have_rows('partners_list',44) ) : the_row();?>
               <div class="carousel_item">
                 <img src="<?= get_sub_field('logo')['url']; ?>" alt="<?= get_sub_field('logo')['alt']; ?>">
               </div>
-		        <? endwhile;
-	        endif;
-	        ?>
+						<? endwhile;
+					endif;
+					?>
         </div>
       </div>
     </div>
   </section>
   <div id="contacts" class="contacts section">
-    <div class="inner_wrapper">
-      <div class="left_part">
-        <a href="/contacts/" class="remark">Контакты</a>
+      <div class="inner_wrapper">
+        <div class="left_part">
+          <a href="/contacts/" class="remark">Контакты</a>
 
-          <div class="adress_wrapper">
-		        <? the_field('contacts_adress', 46) ?>
-          </div>
-          <div class="phones_wrapper">
+            <div class="adress_wrapper">
+              <? the_field('contacts_adress', 46) ?>
+            </div>
+            <div class="phones_wrapper">
 
-            <div class="ph_wrap">
-              <div class="title">Приемная:</div>
-              <ul class="phone_list">
-				        <?
-				        if( have_rows('contacts_phone_priyomnaya', 46) ):
-					        while ( have_rows('contacts_phone_priyomnaya', 46) ) : the_row();?>
-                    <li>
-                      <div class="type"><?= get_sub_field('type'); ?></div>
-                      <div class="number"><?= get_sub_field('number'); ?></div>
-                    </li>
-					        <? endwhile;
-				        endif;
-				        ?>
-              </ul>
+              <div class="ph_wrap">
+                <div class="title">Приемная:</div>
+                <ul class="phone_list">
+                  <?
+                  if( have_rows('contacts_phone_priyomnaya', 46) ):
+                    while ( have_rows('contacts_phone_priyomnaya', 46) ) : the_row();?>
+                      <li>
+                        <div class="type"><?= get_sub_field('type'); ?></div>
+                        <div class="number"><?= get_sub_field('number'); ?></div>
+                      </li>
+                    <? endwhile;
+                  endif;
+                  ?>
+                </ul>
+              </div>
+
+              <div class="ph_wrap">
+                <div class="title">Бухгалтерия:</div>
+                <ul class="phone_list">
+                  <?
+                  if( have_rows('contacts_phone_buhgalteriya', 46) ):
+                    while ( have_rows('contacts_phone_buhgalteriya', 46) ) : the_row();?>
+                      <li>
+                        <div class="type"><?= get_sub_field('type'); ?></div>
+                        <div class="number"><?= get_sub_field('number'); ?></div>
+                      </li>
+                    <? endwhile;
+                  endif;
+                  ?>
+                </ul>
+              </div>
+
+              <div class="ph_wrap">
+                <div class="title">Отдел снабжения и сбыта:</div>
+                <ul class="phone_list">
+                  <?
+                  if( have_rows('contacts_phone_otdel_snabzheniya', 46) ):
+                    while ( have_rows('contacts_phone_otdel_snabzheniya', 46) ) : the_row();?>
+                      <li>
+                        <div class="type"><?= get_sub_field('type'); ?></div>
+                        <div class="number"><?= get_sub_field('number'); ?></div>
+                      </li>
+                    <? endwhile;
+                  endif;
+                  ?>
+                </ul>
+              </div>
+            </div>
+            <div class="wrapper">
+              <div class="email_wrapper">
+                <div class="title">e-mail</div>
+                <? the_field('contacts_email', 46) ?>
+              </div>
+              <div class="skype_wrapper">
+                <div class="title">skype</div>
+                <? the_field('contacts_skype', 46) ?>
+              </div>
+            </div>
+            <div class="button simple_button claim">
+              написать сообщение
             </div>
 
-            <div class="ph_wrap">
-              <div class="title">Бухгалтерия:</div>
-              <ul class="phone_list">
-				        <?
-				        if( have_rows('contacts_phone_buhgalteriya', 46) ):
-					        while ( have_rows('contacts_phone_buhgalteriya', 46) ) : the_row();?>
-                    <li>
-                      <div class="type"><?= get_sub_field('type'); ?></div>
-                      <div class="number"><?= get_sub_field('number'); ?></div>
-                    </li>
-					        <? endwhile;
-				        endif;
-				        ?>
-              </ul>
-            </div>
 
-            <div class="ph_wrap">
-              <div class="title">Отдел снабжения и сбыта:</div>
-              <ul class="phone_list">
-				        <?
-				        if( have_rows('contacts_phone_otdel_snabzheniya', 46) ):
-					        while ( have_rows('contacts_phone_otdel_snabzheniya', 46) ) : the_row();?>
-                    <li>
-                      <div class="type"><?= get_sub_field('type'); ?></div>
-                      <div class="number"><?= get_sub_field('number'); ?></div>
-                    </li>
-					        <? endwhile;
-				        endif;
-				        ?>
-              </ul>
-            </div>
-          </div>
-          <div class="wrapper">
-            <div class="email_wrapper">
-              <div class="title">e-mail</div>
-              <? the_field('contacts_email', 46) ?>
-            </div>
-            <div class="skype_wrapper">
-              <div class="title">skype</div>
-              <? the_field('contacts_skype', 46) ?>
-            </div>
-          </div>
-          <div class="button simple_button claim">
-            написать сообщение
-          </div>
+        </div>
 
-
-      </div>
-
-      <div class="right_part">
-        <? the_field('contacts_map', 46) ?>
+        <div class="right_part">
+          <? the_field('contacts_map', 46) ?>
+        </div>
       </div>
     </div>
-  </div>
 <? get_footer(); ?>

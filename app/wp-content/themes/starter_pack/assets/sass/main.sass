@@ -352,10 +352,16 @@ body
 			border: 1px solid $grey_color
 		.modal_search_wrapper
 			top: 0
+
 section, header, .section
 	height: auto
 	position: relative
 	z-index: 10
+
+.resdrg .item .asl_content .asl_desc
+	display: none
+
+
 
 .top_nav
 	width: 100%
@@ -461,7 +467,14 @@ section, header, .section
 			width: auto
 			height: auto
 			cursor: pointer
-
+		.callback
+			width: auto
+			height: auto
+			margin-right: 20px
+			display: none
+			cursor: pointer
+			svg
+				width: 22px
 
 .hidden_menu
 	position: fixed
@@ -498,8 +511,13 @@ section, header, .section
 			.theMainLogo
 				width: 290px
 				height: auto
+				margin-right: 20px
 				.stripe1
 					fill: $black_green
+			.bvi-link-shortcode
+				width: auto
+				padding: 0 16px
+				display: none
 			.close_icon_wrapper
 				cursor: pointer
 				margin-left: auto
@@ -523,6 +541,7 @@ section, header, .section
 			height: auto
 			display: flex
 			flex-direction: row
+			flex-wrap: wrap
 			a
 				display: block
 				width: 176px
@@ -536,6 +555,40 @@ section, header, .section
 					max-width: 100%
 					max-height: 100%
 
+
+.footer
+	background-color: $footer_bg
+	padding-top: 70px
+	.line
+		width: 95%
+		height: 1px
+		background-color: rgba(229, 229, 229, 0.24)
+		position: relative
+		display: block
+		margin: 0 auto
+		margin-bottom: 10px
+	.main_wrapper
+		&.bottom
+			display: flex
+			flex-direction: row
+			justify-content: space-between
+			color: $grey_color
+			height: auto
+			padding-bottom: 10px
+			align-items: center
+			.right_part
+				display: flex
+				flex-direction: row
+				align-items: center
+			a
+				display: block
+				margin-right: 30px
+				&:hover
+					color: $grey
+				&:last-child
+					margin-right: 0
+
+
 .menu_wrapper
 	width: 100%
 	height: auto
@@ -544,6 +597,20 @@ section, header, .section
 	justify-content: space-between
 	padding: 72px 0 0
 	margin-bottom: 100px
+	&.footer_menu
+		color: $white
+		padding: 0
+		.menu_column
+			ul
+				li
+					Color: $grey_color
+					&:hover
+						color: $grey
+			svg
+				.stripe1
+					fill: $grey_color !important
+			.email, .adress_wrapper span, .phones_wrapper span
+				color: $grey_color !important
 	.menu_column
 		width: 22%
 		&:last-child
@@ -573,6 +640,8 @@ section, header, .section
 			height: auto
 			position: relative
 			margin-bottom: 20px
+			.callback
+				cursor: pointer
 			&:hover
 				.hidden_list
 					display: block
@@ -960,6 +1029,8 @@ div.asl_r.vertical
 		display: block
 		font-size: 10px
 		color: $grey
+		margin-bottom: 0
+
 
 
 .the_production_list
@@ -992,7 +1063,6 @@ div.asl_r.vertical
 			overflow: hidden
 		.title
 			font-weight: 500
-			font-size: 16px
 			line-height: 20px
 			text-align: center
 
@@ -1472,7 +1542,7 @@ div.asl_r.vertical
 	height: auto
 	background-color: $alter_bg
 	.inner_wrapper
-		width: 1568px
+		width: 80%
 		margin-left: auto
 		display: flex
 		flex-direction: row
