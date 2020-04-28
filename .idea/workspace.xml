@@ -2,22 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9c91632-507f-4455-8a34-4caed291c517" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/mails/subscribe_mail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-brsm-archive_template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-den-informirovanija-archive_template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-den-informirovanija-single_template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-dobrovolnaja-druzhina-archive_template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-osvod-archive_template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-osvod-single_template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-sport-archive_template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-sport-single_template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/single-gruppy-komissi-sovety_template.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/css/style-simple-red.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/css/style-simple-red.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/css/style.basic.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/css/style.basic.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/css/styles.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/css/styles.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/js/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/js/scripts.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/js/scripts.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/js/scriptsscripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/js/scriptsscripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/img/afisha_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/img/afisha_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/img/afisha_03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/img/bg-header.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/img/bg_404.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/img/bg_404_mobi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/img/bg_about.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/img/burger.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/img/calendar_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/img/category-main1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/img/category-main1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/img/close_hidden_wrapper.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/img/close_menu_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/img/close_popup_button.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/img/cover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/img/gromofon_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/img/image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/img/logo_bunker.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/img/reclam_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/img/reply_big.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/img/rock_data_express_bg.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/sass/_media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/sass/_media.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/sass/_vars.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/sass/_vars.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/sass/main.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/main_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/main_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/sidebar.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/template-parts/common_section_items.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/template-parts/common_section_items.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/template-parts/icons_pack.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/template-parts/icons_pack.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/template-parts/site_templates.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/template-parts/site_templates.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-ideologicheskaya-rabota-single_template.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-ideologicheskaya-rabota-single_template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-pressa-o-nas-single_template.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-pressa-o-nas-single_template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-profsoyznye-meropriyatiya-single_template.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-profsoyznye-meropriyatiya-single_template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-vse-meropriyatiya-single_template.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-vse-meropriyatiya-single_template.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,64 +56,64 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4302168">
+    <splitter split-orientation="horizontal" split-proportion="0.6162928">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/main_page.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="220">
-                  <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+                <state relative-caret-position="176">
+                  <caret line="133" column="51" selection-start-line="133" selection-start-column="51" selection-end-line="133" selection-end-column="51" />
                   <folding>
                     <element signature="e#6#45#0#PHP" expanded="true" />
-                    <element signature="e#92#594#0#HTML" />
-                    <element signature="e#143#236#0#HTML" expanded="true" />
-                    <element signature="e#242#582#0#HTML" />
-                    <element signature="e#597#902#0#HTML" />
                     <element signature="e#905#2924#0#HTML" />
-                    <element signature="e#2220#2284#0#HTML" expanded="true" />
                     <element signature="e#2927#3595#0#HTML" />
-                    <element signature="e#3600#5076#0#HTML" />
-                    <element signature="e#4892#6586#0#HTML" />
-                    <element signature="e#5677#5838#0#HTML" expanded="true" />
-                    <element signature="e#6494#7533#0#HTML" />
-                    <element signature="e#7570#10274#0#HTML" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-brsm-archive_template.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="176">
+                  <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+                  <folding>
+                    <element signature="e#6#69#0#PHP" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/footer.php">
+            <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-dobrovolnaja-druzhina-archive_template.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="506">
-                  <caret line="204" column="18" selection-start-line="204" selection-start-column="18" selection-end-line="204" selection-end-column="18" />
+                <state relative-caret-position="220">
+                  <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
                   <folding>
-                    <element signature="n#div#0;n#footer#0;n#!!top" />
-                    <element signature="n#div#0;n#!!top" />
-                    <element signature="n#div#1;n#!!top" />
-                    <element signature="n#div#2;n#!!top" />
-                    <element signature="n#div#0;n#div#2;n#!!top" />
-                    <marker date="1588014252477" expanded="true" signature="288:4646" ph="..." />
+                    <element signature="e#6#68#0#PHP" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/template-parts/icons_pack.php">
+            <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-osvod-single_template.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="228">
-                  <caret line="121" column="21" selection-start-line="121" selection-start-column="9" selection-end-line="121" selection-end-column="21" />
+                <state relative-caret-position="132">
+                  <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+                  <folding>
+                    <element signature="n#section#0;n#!!top" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/gulpfile.js">
+            <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-ideologicheskaya-rabota-single_template.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="671">
-                  <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+                <state relative-caret-position="110">
+                  <caret line="8" selection-start-line="8" selection-end-line="12" selection-end-column="2" />
                 </state>
               </provider>
             </entry>
@@ -91,11 +121,64 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/template-parts/site_templates.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="217">
-                  <caret line="56" column="20" lean-forward="true" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
+                <state relative-caret-position="1782">
+                  <caret line="267" column="18" lean-forward="true" selection-start-line="267" selection-start-column="18" selection-end-line="267" selection-end-column="18" />
                   <folding>
                     <element signature="n#hidden_menu#0;n#!!top" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/template-parts/common_section_items.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="396">
+                  <caret line="63" column="24" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
+                  <folding>
+                    <element signature="n#modal_search_template#0;n#!!top" />
+                    <element signature="n#the_production_list#0;n#!!top" />
+                    <element signature="n#previewItemBig#0;n#!!top" />
+                    <element signature="n#innerPageTopTemplate#0;n#!!top" />
+                    <element signature="e#1992#2074#0#HTML" expanded="true" />
+                    <element signature="n#theFotogalaryTemplate#0;n#!!top" />
+                    <element signature="e#2637#2718#0#HTML" expanded="true" />
+                    <element signature="n#theFileListTemplate#0;n#!!top" />
+                    <element signature="n#backToListButton#0;n#!!top" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-sport-archive_template.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="132">
+                  <caret line="6" selection-start-line="6" selection-end-line="6" />
+                  <folding>
+                    <element signature="e#6#75#0#PHP" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-profsoyznye-meropriyatiya-single_template.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="330">
+                  <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+                  <folding>
+                    <element signature="e#6#79#0#PHP" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-vse-meropriyatiya-single_template.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="154">
+                  <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="26" />
                 </state>
               </provider>
             </entry>
@@ -104,14 +187,20 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/sass/main.sass">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="492">
-                  <caret line="581" selection-start-line="581" selection-end-line="581" />
-                  <folding>
-                    <element signature="e#7748#9048#0" />
-                  </folding>
+                <state relative-caret-position="649">
+                  <caret line="1837" column="30" selection-start-line="1837" selection-start-column="30" selection-end-line="1837" selection-end-column="30" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/sass/_media.sass">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1053">
+                  <caret line="964" selection-start-line="964" selection-end-line="966" selection-end-column="14" />
                 </state>
               </provider>
             </entry>
@@ -120,7 +209,7 @@
             <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/js/common.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="492">
-                  <caret line="276" column="10" lean-forward="true" selection-start-line="276" selection-start-column="10" selection-end-line="276" selection-end-column="10" />
+                  <caret line="276" column="10" selection-start-line="276" selection-start-column="10" selection-end-line="276" selection-end-column="10" />
                   <folding>
                     <element signature="e#230#253#0" />
                     <element signature="e#1598#1770#0" />
@@ -137,29 +226,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/sass/_media.sass">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="319">
-                  <caret line="552" column="19" lean-forward="true" selection-start-line="552" selection-start-column="19" selection-end-line="552" selection-end-column="19" />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/css/style-simple-red.css">
+            <entry file="file://$PROJECT_DIR$/gulpfile.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="290">
-                  <caret line="43" column="24" lean-forward="true" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/mails/claim_mail.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="396">
-                  <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+                <state relative-caret-position="836">
+                  <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
                 </state>
               </provider>
             </entry>
@@ -173,28 +244,12 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/functions.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="5610">
-                  <caret line="261" column="50" selection-start-line="261" selection-start-column="50" selection-end-line="261" selection-end-column="50" />
-                </state>
-              </provider>
-            </entry>
-          </file>
         </leaf>
       </split-second>
     </splitter>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>overl</find>
-      <find>close</find>
-      <find>hort</find>
-      <find>arrow_left_icon</find>
-      <find>quo</find>
-      <find>righ</find>
-      <find>nav</find>
       <find>wp</find>
       <find>pla</find>
       <find>section</find>
@@ -216,8 +271,15 @@
       <find>.title_line</find>
       <find>30px</find>
       <find>contacts</find>
-      <find>.chiefs</find>
       <find>footer</find>
+      <find>plain</find>
+      <find>print</find>
+      <find>breadcrumbs</find>
+      <find>top_nav</find>
+      <find>.chiefs</find>
+      <find>left</find>
+      <find>return true;</find>
+      <find>WP_q</find>
     </findStrings>
     <replaceStrings>
       <replace>font-family: inherit;</replace>
@@ -235,36 +297,46 @@
         <option value="$PROJECT_DIR$/app/wp-content/plugins/button-visually-impaired/assets/css/bvi.min.css" />
         <option value="$PROJECT_DIR$/app/wp-content/plugins/button-visually-impaired/Button-visually-impaired.php" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/template-parts/icons_pack.php" />
         <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/template-parts/site_menus_template.php" />
-        <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/functions.php" />
         <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/header.php" />
         <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/template-parts/modal_search.php" />
         <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-produkcija_template.php" />
         <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-uslugi_template.php" />
         <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-pressa-o-nas-archive_template.php" />
-        <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-pressa-o-nas-single_template.php" />
-        <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-profsoyznye-meropriyatiya-single_template.php" />
         <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-profsoyznye-meropriyatiya-archive_template.php" />
         <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-ideologicheskaya-rabota-archive_template.php" />
-        <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-ideologicheskaya-rabota-single_template.php" />
         <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-vse-meropriyatiya-archive_template.php" />
-        <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-vse-meropriyatiya-single_template.php" />
         <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-uslugi-uslugi-ispytatelnoj-laboratorii_template.php" />
         <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-rukovodstvo_template.php" />
         <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-partners-archive_template.php" />
         <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/page-contacts_template.php" />
         <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/sass/_vars.sass" />
         <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/mails/subscribe_mail.php" />
-        <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/template-parts/common_section_items.php" />
-        <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/template-parts/site_templates.php" />
         <option value="$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/css/style-simple-red.css" />
         <option value="$PROJECT_DIR$/app/wp-content/plugins/ajax-search-lite/css/style.basic.css" />
         <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/js/common.js" />
-        <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/main_page.php" />
-        <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/sass/main.sass" />
-        <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/sass/_media.sass" />
         <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/footer.php" />
+        <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/sidebar.php" />
+        <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/single-gruppy-komissi-sovety_template.php" />
+        <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/functions.php" />
+        <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/template-parts/site_templates.php" />
+        <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/template-parts/icons_pack.php" />
+        <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/sass/_media.sass" />
+        <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-vse-meropriyatiya-single_template.php" />
+        <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-ideologicheskaya-rabota-single_template.php" />
+        <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-profsoyznye-meropriyatiya-single_template.php" />
+        <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/sass/main.sass" />
+        <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-den-informirovanija-archive_template.php" />
+        <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-osvod-archive_template.php" />
+        <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-den-informirovanija-single_template.php" />
+        <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-pressa-o-nas-single_template.php" />
+        <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-osvod-single_template.php" />
+        <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/template-parts/common_section_items.php" />
+        <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-sport-single_template.php" />
+        <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-sport-archive_template.php" />
+        <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/main_page.php" />
+        <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-brsm-archive_template.php" />
+        <option value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-dobrovolnaja-druzhina-archive_template.php" />
       </list>
     </option>
   </component>
@@ -369,7 +441,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/mails" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -380,8 +452,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\Server\OSPanel\domains\usyazh.loc\app\wp-content\themes\starter_pack\mails" />
       <recent name="F:\Server\OSPanel\domains\usyazh.loc\app\wp-content\themes\starter_pack\templates" />
+      <recent name="F:\Server\OSPanel\domains\usyazh.loc\app\wp-content\themes\starter_pack\mails" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -411,7 +483,7 @@
       <workItem from="1587897989200" duration="12519000" />
       <workItem from="1587910778971" duration="42925000" />
       <workItem from="1587955466827" duration="53000" />
-      <workItem from="1587987832811" duration="23645000" />
+      <workItem from="1587987832811" duration="47993000" />
     </task>
     <task id="LOCAL-00001" summary="new commit">
       <created>1587846734037</created>
@@ -448,17 +520,24 @@
       <option name="project" value="LOCAL" />
       <updated>1587955508477</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="27 04 evning">
+      <created>1588014606904</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1588014606904</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114160000" />
+    <option name="totallyTimeSpent" value="138508000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-7" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27558637" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2889126" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -532,7 +611,8 @@
     <MESSAGE value="26 04 night" />
     <MESSAGE value="26 04 evn" />
     <MESSAGE value="26 04 night/27 evn" />
-    <option name="LAST_COMMIT_MESSAGE" value="26 04 night/27 evn" />
+    <MESSAGE value="27 04 evning" />
+    <option name="LAST_COMMIT_MESSAGE" value="27 04 evning" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>F:\Server\OSPanel\domains\usyazh.loc\app</wordpressPath>
@@ -644,26 +724,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-pressa-o-nas-single_template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-          <folding>
-            <element signature="e#6#81#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-profsoyznye-meropriyatiya-single_template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#6#76#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-profsoyznye-meropriyatiya-archive_template.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -671,24 +731,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-ideologicheskaya-rabota-single_template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-ideologicheskaya-rabota-archive_template.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-vse-meropriyatiya-single_template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -720,13 +766,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5610">
-          <caret line="261" column="50" selection-start-line="261" selection-start-column="50" selection-end-line="261" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/page-contacts_template.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -737,13 +776,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/mails/claim_mail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/mails/subscribe_mail.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -751,39 +783,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+    <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/sidebar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="671">
-          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+        <state relative-caret-position="66">
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/template-parts/common_section_items.php">
+    <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="284">
+          <caret line="116" column="26" selection-start-line="116" selection-start-column="20" selection-end-line="116" selection-end-column="26" />
           <folding>
-            <element signature="n#modal_search_template#0;n#!!top" />
-            <element signature="n#the_production_list#0;n#!!top" />
-            <element signature="n#previewItemBig#0;n#!!top" />
-            <element signature="n#previewItem#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/template-parts/icons_pack.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="121" column="21" selection-start-line="121" selection-start-column="9" selection-end-line="121" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/template-parts/site_templates.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="56" column="20" lean-forward="true" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
-          <folding>
-            <element signature="n#hidden_menu#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#footer#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#footer#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#footer#0;n#!!top" />
+            <element signature="n#div#0;n#div#3;n#div#0;n#div#0;n#footer#0;n#!!top" />
+            <element signature="n#div#1;n#div#3;n#div#0;n#div#0;n#footer#0;n#!!top" />
+            <element signature="n#div#2;n#div#3;n#div#0;n#div#0;n#footer#0;n#!!top" />
+            <element signature="n#div#0;n#!!top" />
+            <element signature="n#div#1;n#!!top" />
+            <element signature="n#div#2;n#!!top" />
+            <element signature="n#div#0;n#div#2;n#!!top" />
+            <marker date="1588015757410" expanded="true" signature="288:5243" ph="..." />
           </folding>
         </state>
       </provider>
@@ -795,32 +817,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/main_page.php">
+    <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/mails/claim_mail.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+        <state relative-caret-position="396">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/single-gruppy-komissi-sovety_template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
-            <element signature="e#6#45#0#PHP" expanded="true" />
-            <element signature="e#92#594#0#HTML" />
-            <element signature="e#143#236#0#HTML" expanded="true" />
-            <element signature="e#242#582#0#HTML" />
-            <element signature="e#597#902#0#HTML" />
-            <element signature="e#905#2924#0#HTML" />
-            <element signature="e#2220#2284#0#HTML" expanded="true" />
-            <element signature="e#2927#3595#0#HTML" />
-            <element signature="e#3600#5076#0#HTML" />
-            <element signature="e#4892#6586#0#HTML" />
-            <element signature="e#5677#5838#0#HTML" expanded="true" />
-            <element signature="e#6494#7533#0#HTML" />
-            <element signature="e#7570#10274#0#HTML" />
+            <element signature="e#6#83#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="55" column="16" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="492">
-          <caret line="276" column="10" lean-forward="true" selection-start-line="276" selection-start-column="10" selection-end-line="276" selection-end-column="10" />
+          <caret line="276" column="10" selection-start-line="276" selection-start-column="10" selection-end-line="276" selection-end-column="10" />
           <folding>
             <element signature="e#230#253#0" />
             <element signature="e#1598#1770#0" />
@@ -843,34 +874,173 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/sass/_media.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1053">
+          <caret line="964" selection-start-line="964" selection-end-line="966" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/template-parts/icons_pack.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="248" column="44" selection-start-line="248" selection-start-column="44" selection-end-line="248" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-den-informirovanija-archive_template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/sass/main.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="581" selection-start-line="581" selection-end-line="581" />
+        <state relative-caret-position="649">
+          <caret line="1837" column="30" selection-start-line="1837" selection-start-column="30" selection-end-line="1837" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-profsoyznye-meropriyatiya-single_template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
           <folding>
-            <element signature="e#7748#9048#0" />
+            <element signature="e#6#79#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/sass/_media.sass">
+    <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-vse-meropriyatiya-single_template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="552" column="19" lean-forward="true" selection-start-line="552" selection-start-column="19" selection-end-line="552" selection-end-column="19" />
+        <state relative-caret-position="154">
+          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/footer.php">
+    <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-den-informirovanija-single_template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="204" column="18" selection-start-line="204" selection-start-column="18" selection-end-line="204" selection-end-column="18" />
+        <state relative-caret-position="176">
+          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-osvod-archive_template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
           <folding>
-            <element signature="n#div#0;n#footer#0;n#!!top" />
-            <element signature="n#div#0;n#!!top" />
-            <element signature="n#div#1;n#!!top" />
-            <element signature="n#div#2;n#!!top" />
-            <element signature="n#div#0;n#div#2;n#!!top" />
-            <marker date="1588014252477" expanded="true" signature="288:4646" ph="..." />
+            <element signature="e#6#81#0#PHP" expanded="true" />
+            <element signature="n#section#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-pressa-o-nas-single_template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" selection-start-line="8" selection-end-line="12" selection-end-column="2" />
+          <folding>
+            <element signature="e#6#76#0#PHP" expanded="true" />
+            <element signature="n#section#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-ideologicheskaya-rabota-single_template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="8" selection-start-line="8" selection-end-line="12" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-osvod-single_template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+          <folding>
+            <element signature="n#section#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-sport-single_template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#6#82#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-sport-archive_template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#6#75#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/template-parts/common_section_items.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="63" column="24" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
+          <folding>
+            <element signature="n#modal_search_template#0;n#!!top" />
+            <element signature="n#the_production_list#0;n#!!top" />
+            <element signature="n#previewItemBig#0;n#!!top" />
+            <element signature="n#innerPageTopTemplate#0;n#!!top" />
+            <element signature="e#1992#2074#0#HTML" expanded="true" />
+            <element signature="n#theFotogalaryTemplate#0;n#!!top" />
+            <element signature="e#2637#2718#0#HTML" expanded="true" />
+            <element signature="n#theFileListTemplate#0;n#!!top" />
+            <element signature="n#backToListButton#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/template-parts/site_templates.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1782">
+          <caret line="267" column="18" lean-forward="true" selection-start-line="267" selection-start-column="18" selection-end-line="267" selection-end-column="18" />
+          <folding>
+            <element signature="n#hidden_menu#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/main_page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="133" column="51" selection-start-line="133" selection-start-column="51" selection-end-line="133" selection-end-column="51" />
+          <folding>
+            <element signature="e#6#45#0#PHP" expanded="true" />
+            <element signature="e#905#2924#0#HTML" />
+            <element signature="e#2927#3595#0#HTML" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-brsm-archive_template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#6#69#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/category-dobrovolnaja-druzhina-archive_template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#6#68#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

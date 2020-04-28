@@ -103,7 +103,7 @@ button
 	display: flex
 	flex-direction: row
 	line-height: 28px
-	margin-bottom: 18px
+	margin-bottom: 20px
 	span
 		span
 			a
@@ -373,6 +373,7 @@ section, header, .section
 	left: 0
 	right: 0
 	z-index: 50
+	background-color: $white
 	.inner_wrapper
 		width: 100%
 		height: 96px
@@ -587,8 +588,14 @@ section, header, .section
 					color: $grey
 				&:last-child
 					margin-right: 0
-
-
+		.partners_list
+			display: flex
+			flex-direction: row
+			flex-wrap: wrap
+			a
+				display: block
+				margin-right: 20px
+				margin-bottom: 20px
 .menu_wrapper
 	width: 100%
 	height: auto
@@ -601,6 +608,22 @@ section, header, .section
 		color: $white
 		padding: 0
 		.menu_column
+			.button
+				width: 280px
+				height: 48px
+				background-color: #42454A
+				color: $white
+				font-size: 12px
+				text-transform: uppercase
+				margin-bottom: 20px
+				position: relative
+				left: -30px
+				&:hover
+					opacity: .8
+				svg
+					margin-left: 20px
+					.stripe1
+						fill: $white
 			ul
 				li
 					Color: $grey_color
@@ -1623,32 +1646,298 @@ div.asl_r.vertical
 				width: 100%
 				height: 100%
 
+.main
+	padding: 64px 0 80px
+	.main_content_wrapper
+		width: 100%
+		height: auto
+		display: flex
+		flex-direction: row
+		justify-content: space-between
+		.sidebar
+			width: 23%
+		.the_content_wrapper
+			width: 75%
 
 
 
 
+.h1_wrapper
+	width: 100%
+	height: auto
+	display: flex
+	flex-direction: row
+	align-items: center
+	justify-content: space-between
+	margin-bottom: 64px
+	.h1_title
+		width: 90%
+	.print_wrapper
+		cursor: pointer
+		.thePrintIcon
+			.stripe1
+				fill: $grey
+
+.h1_title
+	font-weight: 500
+	font-size: 30px
+	line-height: 37px
 
 
+.sidebar
+	display: flex
+	flex-direction: column
+	.sidebar_menu_wrapper
+		width: 100%
+		height: auto
+		display: flex
+		flex-direction: column
+		border: 1px solid #E5E5E5
+		margin-bottom: 64px
+		.menu-item
+			width: 100%
+			height: auto
+			border-bottom: 1px solid #E5E5E5
+			min-height: 64px
+			display: flex
+			flex-direction: row
+			align-items: center
+			position: relative
+			color: $grey
+			a
+				display: block
+				width: 100%
+				height: 100%
+				padding: 22px
+			&:hover
+				color: $accent
+			&.current-menu-item
+				color: $accent
+			&.menu-item-has-children
+				display: flex
+				flex-direction: column
+				padding: 10px 22px
+				a
+					display: block
+					margin-bottom: 4px
+				.sub-menu
+					display: inline
+					.menu-item
+						display: inline
+						border-bottom: none
+						font-size: 14px
+						&:last-child
+							a
+								&:after
+									content: ''
+						a
+							display: inline
+							&:after
+								content: ','
+				a
+					padding: 0
+				&:after
+					content: url('../img/ang_right.svg')
+					display: block
+					position: absolute
+					right: 20px
+					transform: rotate(90deg)
+			&:last-child
+				border-bottom: none
+	.need_konsult_wrapper
+		border: 1px solid #E5E5E5
+		padding: 46px 16px 0
+		display: flex
+		flex-direction: column
+		align-items: center
+		text-align: center
+		color: $grey
+		.theMailBigIcon
+			margin-bottom: 47px
+		.title
+			font-weight: 500
+			font-size: 20px
+			line-height: 24px
+			margin-bottom: 20px
+			width: 70%
+		.desc
+			font-size: 15px
+			line-height: 25px
+			padding-bottom: 40px
+			width: 80%
+		.link
+			border-top: 1px solid #E5E5E5
+			height: 48px
+			width: 100%
+			display: flex
+			justify-content: center
+			align-items: center
+			cursor: pointer
+			color: $color
+			font-weight: 500
+			font-size: 10px
+			line-height: 12px
+			text-transform: uppercase
 
 
+.the_content
+	width: 100%
+	height: auto
+	color: $color
+	font-size: 15px
+	line-height: 25px
+	margin-bottom: 30px
+	h2, h3
+		font-weight: bold
+		font-size: 15px
+		line-height: 25px
+		margin-bottom: 30px
+	p
+		margin-bottom: 30px
+		&:last-child
+			margin-bottom: 0
+	iframe
+		display: block
+		width: 100%
+		height: 400px
+		margin-bottom: 30px
+	ul
+		display: block
+		width: 100%
+		height: auto
+		padding: 0 0 0 26px
+		margin-bottom: 30px
+		li
+			width: 100%
+			height: auto
+			display: flex
+			flex-direction: row
+			align-items: center
+			position: relative
+			margin-bottom: 20px
+			&:last-child
+				margin-bottom: 0
+			&:before
+				content: ''
+				width: 8px
+				height: 8px
+				border-radius: 50%
+				background-color: $accent
+				position: absolute
+				left: -24px
+				display: block
+	img
+		display: block
+		margin: 0 auto 30px
+		width: auto
+		height: auto
+		max-width: 100%
+	a
+		font-weight: 600
+		color: $black
+		text-decoration: underline
+.inner_page_top
+	width: 100%
+	height: auto
+	margin-bottom: 50px
+	.page_top_image_wrapper
+		width: 100%
+		height: 330px
+		background-position: center
+		background-size: cover
+		background-repeat: no-repeat
+		margin-bottom: 25px
+	.perk_line
+		width: 100%
+		height: auto
+		display: flex
+		flex-direction: row
+		align-items: center
+		font-size: 12px
+		line-height: 15px
+		color: $grey
+		.date
+			margin-right: 40px
 
+.fotogalary_wrapper
+	width: 100%
+	height: auto
+	display: flex
+	flex-direction: row
+	justify-content: space-around
+	flex-wrap: wrap
+	margin-bottom: 30px
+	&.full_page
+		.image_item
+			width: 24%
+	.image_item
+		width: 32%
+		height: 168px
+		margin-bottom: 32px
+		background-position: top
+		background-size: cover
+		background-repeat: no-repeat
 
+.files_list
+	width: 100%
+	height: auto
+	margin-bottom: 30px
+	.file_item
+		width: 100%
+		height: auto
+		padding: 30px 40px
+		display: flex
+		flex-direction: row
+		align-items: center
+		border: 1px solid #E5E5E5
+		margin-bottom: 30px
+		&:last-child
+			margin-bottom: 0
+		svg
+			width: 44px
+			height: auto
+			margin-right: 25px
+		.info_wrapper
+			width: 80%
+			height: auto
+			.filename
+				font-size: 18px
+				line-height: 28px
+				margin-bottom: 7px
+				text-transform: uppercase
+				display: block
+				width: auto
+			.filesize
+				font-size: 15px
+				line-height: 18px
+				color: #838383
+		.download
+			margin-left: auto
+			width: 32px
+			height: 32px
+			border: 1px solid #E5E5E5
+			display: flex
+			justify-content: center
+			align-items: center
+			cursor: pointer
+			svg
+				display: block
+				margin-right: 0
+				width: auto
+				height: 70%
+				.stripe1
+					fill: $grey_color
+			&:hover
+				background-color: $footer_bg
+				.stripe1
+					fill: $white
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.back_to_list
+	width: auto
+	height: auto
+	display: flex
+	flex-direction: row
+	align-items: center
+	svg
+		margin-right: 8px
 @import "media"

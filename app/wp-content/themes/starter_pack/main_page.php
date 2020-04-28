@@ -131,7 +131,7 @@
 				$offset = 3;
 				$query = new WP_Query( array(
 					'posts_per_page' => $offset,
-					'category__in'   => array(13,6,3,8),
+					'category__in'   => array(13,6,3,8,17,18,19),
 					'post_status'    => 'publish',
 					'order'          => 'DESC'
 				) );

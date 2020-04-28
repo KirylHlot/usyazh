@@ -114,6 +114,10 @@
         </ul>
       </div>
       <div class="menu_column">
+        <div class="button subscribe">
+          подписка на рассылку
+          <? thePlainIcon(); ?>
+        </div>
         <div class="phones_wrapper">
 					<? thePhoneIcon(); ?>
 					<?
@@ -164,7 +168,22 @@
         </div>
       </div>
     </div>
+    <div class="main_wrapper">
+      <div class="partners_list">
+		    <?
+		    if( have_rows('cf_links_list', 'option') ):
+			    while ( have_rows('cf_links_list', 'option') ) : the_row();
+				    $image = get_sub_field('image' );?>
+            <a href="<? the_sub_field('url'); ?>" class="link_item" target="_blank">
+              <img src="<?= $image['url']; ?>" alt="<?= $image['alt']; ?>">
+            </a>
+			    <? endwhile;
+		    endif;
+		    ?>
+      </div>
+    </div>
   </div>
+
   <div class="line"></div>
   <div class="main_wrapper bottom">
     <div class="copyright">
