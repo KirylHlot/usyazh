@@ -9,52 +9,38 @@
 
 get_header();
 ?>
+  <style>
+    .main_wrapper{
+      text-align: center;
+      padding: 5% 0;
+    }
 
-	<main id="primary" class="site-main">
+    h1{
+      font-size: 32px;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
 
-		<section class="error-404 not-found">
-			<header class="page-header">
-				<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'starter_pack' ); ?></h1>
-			</header><!-- .page-header -->
+    .desc{
+      font-size: 24px;
+      margin-bottom: 40px;
+    }
 
-			<div class="page-content">
-				<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'starter_pack' ); ?></p>
+    .button{
+      width: 300px;
+      margin: 0 auto;
+    }
 
-					<?php
-					get_search_form();
+  </style>
 
-					the_widget( 'WP_Widget_Recent_Posts' );
-					?>
-
-					<div class="widget widget_categories">
-						<h2 class="widget-title"><?php esc_html_e( 'Most Used Categories', 'starter_pack' ); ?></h2>
-						<ul>
-							<?php
-							wp_list_categories(
-								array(
-									'orderby'    => 'count',
-									'order'      => 'DESC',
-									'show_count' => 1,
-									'title_li'   => '',
-									'number'     => 10,
-								)
-							);
-							?>
-						</ul>
-					</div><!-- .widget -->
-
-					<?php
-					/* translators: %1$s: smiley */
-					$starter_pack_archive_content = '<p>' . sprintf( esc_html__( 'Try looking in the monthly archives. %1$s', 'starter_pack' ), convert_smilies( ':)' ) ) . '</p>';
-					the_widget( 'WP_Widget_Archives', 'dropdown=1', "after_title=</h2>$starter_pack_archive_content" );
-
-					the_widget( 'WP_Widget_Tag_Cloud' );
-					?>
-
-			</div><!-- .page-content -->
-		</section><!-- .error-404 -->
-
-	</main><!-- #main -->
+<div class="main_wrapper">
+  <h1>Извините, мы не можем найти такую страницу.</h1>
+  <div class="desc">(Ошибка 404)</div>
+  <a class="button" href="/">На главную страницу</a>
+</div>
 
 <?php
 get_footer();
+
+
+

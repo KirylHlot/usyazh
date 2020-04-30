@@ -190,7 +190,7 @@
       © 2020 Все права защищены
     </div>
     <div class="right_part">
-      <a href="#">ВЕРСИЯ ДЛЯ ПЕЧАТИ</a>
+      <?= do_shortcode('[print-me target="body" title="ВЕРСИЯ ДЛЯ ПЕЧАТИ" do_not_print="d_none"]'); ?>
       <a href="<?= get_field('cf_politic', 'option')['url']; ?>">ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</a>
     </div>
   </div>

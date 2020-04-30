@@ -327,6 +327,10 @@ body
 					.theCarretDownIcon
 						.stripe1
 							fill: $white
+			.search_button
+				svg
+					.stripe1
+						fill: $white
 		&.bg_white
 			.top_nav
 				background-color: $white
@@ -456,7 +460,7 @@ section, header, .section
 				top: 100%
 				flex-direction: column
 				white-space: nowrap
-				background-color: $footer_bg
+				background-color: $white
 				display: none
 				.single_phone_wrapper
 					padding-bottom: 15px
@@ -468,6 +472,9 @@ section, header, .section
 			width: auto
 			height: auto
 			cursor: pointer
+			svg
+				.stripe1
+					fill: $grey
 		.callback
 			width: auto
 			height: auto
@@ -581,9 +588,11 @@ section, header, .section
 				display: flex
 				flex-direction: row
 				align-items: center
-			a
+			a, div
 				display: block
 				margin-right: 30px
+				&.printomatic
+					display: none
 				&:hover
 					color: $grey
 				&:last-child
@@ -1304,20 +1313,21 @@ div.asl_r.vertical
 			.thePlainIcon
 				margin-right: 20px
 
-		.preview_list, .alm-reveal
-			width: 100%
-			height: auto
-			display: flex
-			flex-direction: row
-			justify-content: space-around
-			margin-bottom: 30px
-			flex-wrap: wrap
 
-		.alm-btn-wrap
-			width: 100%
-			height: auto
-			padding: 20px 0 0
-			margin: 0
+.preview_list, .alm-reveal
+	width: 100%
+	height: auto
+	display: flex
+	flex-direction: row
+	justify-content: space-around
+	margin-bottom: 30px
+	flex-wrap: wrap
+
+.alm-btn-wrap
+	width: 100%
+	height: auto
+	padding: 20px 0 0
+	margin: 0
 
 .ajax-load-more-wrap
 	width: 100%
@@ -1329,6 +1339,20 @@ div.asl_r.vertical
 		.preview_item
 			margin-bottom: 30px
 
+.the_content_wrapper
+	&.half_part
+		.preview_list
+			margin-bottom: 0
+		.big_preview_item
+			margin-bottom: 30px
+		.preview_item
+			width: 32%
+			border: 1px solid $alter_bg
+			box-sizing: content-box
+			margin-bottom: 30px
+			&:hover
+				box-shadow: 0 0 24px rgba(0, 0, 0, 0.16)
+
 .big_preview_item
 	width: 48%
 	height: 380px
@@ -1336,6 +1360,11 @@ div.asl_r.vertical
 	background-repeat: no-repeat
 	background-position: center
 	position: relative
+	&:hover
+		box-shadow: 0 0 24px rgba(0, 0, 0, 0.16)
+	&.half_part
+		width: 65%
+		border: 1px solid $alter_bg
 	.content
 		width: 50%
 		height: 230px
@@ -1366,10 +1395,16 @@ div.asl_r.vertical
 .preview_item
 	width: 24%
 	height: 380px
+	&:hover
+		box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.16)
+	&.half_part
+		width: 32%
+		border: 1px solid $alter_bg
+		box-sizing: content-box
 	.thumbnail
 		width: 100%
 		height: 150px
-		background-position: center
+		background-position: 50% 35%
 		background-size: cover
 		background-repeat: no-repeat
 	.content
@@ -1654,12 +1689,74 @@ div.asl_r.vertical
 		display: flex
 		flex-direction: row
 		justify-content: space-between
+		&.full_width
+			.the_content_wrapper
+				width: 100%
 		.sidebar
 			width: 23%
 		.the_content_wrapper
 			width: 75%
 
+.word_wrap
+	word-wrap: break-word
 
+
+.the_services_list
+	width: 100%
+	height: auto
+	margin-bottom: 30px
+	.item_wrapper
+		width: 100%
+		height: auto
+		display: flex
+		flex-direction: row
+		justify-content: space-between
+		position: relative
+		padding: 40px
+		border: 1px solid #E5E5E5
+		z-index: 1
+		&:hover
+			z-index: 2
+			border-color: transparent
+			box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.16)
+		.thumbnail
+			width: 32%
+			height: 136px
+			background-repeat: no-repeat
+			background-position: center
+			background-size: cover
+		.right_part
+			width: 64%
+			.title
+				font-weight: 500
+				font-size: 24px
+				line-height: 29px
+				margin-bottom: 20px
+			.page_content
+				font-size: 15px
+				line-height: 27px
+				color: $grey
+		.go
+			position: absolute
+			width: 32px
+			height: 32px
+			background: $white
+			border: 1px solid #E5E5E5
+			border-radius: 2px
+			display: flex
+			justify-content: center
+			align-items: center
+			right: 40px
+			top: 40px
+			&:hover
+				background-color: $accent
+				.theArrowLRightIcon
+					.stripe1
+						fill: $white
+			.theArrowLRightIcon
+				width: 8px
+				.stripe1
+					fill: $grey
 
 
 .h1_wrapper
@@ -1712,6 +1809,7 @@ div.asl_r.vertical
 			&:hover
 				color: $accent
 			&.current-menu-item
+				background-color: $alter_bg
 				color: $accent
 			&.menu-item-has-children
 				display: flex
@@ -1744,40 +1842,41 @@ div.asl_r.vertical
 					transform: rotate(90deg)
 			&:last-child
 				border-bottom: none
-	.need_konsult_wrapper
-		border: 1px solid #E5E5E5
-		padding: 46px 16px 0
+
+.need_konsult_wrapper
+	border: 1px solid #E5E5E5
+	padding: 46px 16px 0
+	display: flex
+	flex-direction: column
+	align-items: center
+	text-align: center
+	color: $grey
+	.theMailBigIcon
+		margin-bottom: 47px
+	.title
+		font-weight: 500
+		font-size: 20px
+		line-height: 24px
+		margin-bottom: 20px
+		width: 70%
+	.desc
+		font-size: 15px
+		line-height: 25px
+		padding-bottom: 40px
+		width: 80%
+	.link
+		border-top: 1px solid #E5E5E5
+		height: 48px
+		width: 100%
 		display: flex
-		flex-direction: column
+		justify-content: center
 		align-items: center
-		text-align: center
-		color: $grey
-		.theMailBigIcon
-			margin-bottom: 47px
-		.title
-			font-weight: 500
-			font-size: 20px
-			line-height: 24px
-			margin-bottom: 20px
-			width: 70%
-		.desc
-			font-size: 15px
-			line-height: 25px
-			padding-bottom: 40px
-			width: 80%
-		.link
-			border-top: 1px solid #E5E5E5
-			height: 48px
-			width: 100%
-			display: flex
-			justify-content: center
-			align-items: center
-			cursor: pointer
-			color: $color
-			font-weight: 500
-			font-size: 10px
-			line-height: 12px
-			text-transform: uppercase
+		cursor: pointer
+		color: $color
+		font-weight: 500
+		font-size: 10px
+		line-height: 12px
+		text-transform: uppercase
 
 
 .the_content
@@ -1904,7 +2003,6 @@ div.asl_r.vertical
 				font-size: 18px
 				line-height: 28px
 				margin-bottom: 7px
-				text-transform: uppercase
 				display: block
 				width: auto
 			.filesize
@@ -1940,4 +2038,783 @@ div.asl_r.vertical
 	align-items: center
 	svg
 		margin-right: 8px
+
+
+.h3_title
+	font-size: 24px
+	line-height: 29px
+	margin-bottom: 40px
+
+.the_autopark_list
+	width: 100%
+	height: auto
+	margin-bottom: 80px
+	.autopark__item
+		width: 100%
+		height: auto
+		border: 1px solid #E5E5E5
+		border-left: 2px solid $accent
+		display: flex
+		flex-direction: row
+		margin-bottom: 33px
+		&:last-child
+			margin-bottom: 0
+		.image_wrapper
+			width: 20%
+			height: auto
+			min-height: 112px
+			background-position: center
+			background-size: cover
+			background-repeat: no-repeat
+		.desc
+			padding: 20px
+			width: 80%
+			display: flex
+			flex-direction: row
+			align-items: center
+
+.the_start_friendship
+	width: 100%
+	height: auto
+	padding: 50px 40px
+	background-color: $alter_bg
+	display: flex
+	flex-direction: row
+	align-items: center
+	justify-content: space-between
+	.theMailMediumIcon
+		width: 48px
+	.content
+		width: 55%
+	.button_line
+		width: auto
+		height: auto
+		display: flex
+		flex-direction: row
+		align-items: center
+		.simple_button
+			margin-left: 20px
+			background-color: transparent
+			&:hover
+				background-color: $accent
+				svg
+					.stripe1
+						fill: $white
+
+.navigation_line
+	width: 100%
+	height: auto
+	display: flex
+	flex-direction: row
+	justify-content: flex-end
+	margin-bottom: 40px
+	.subscribe
+		border: 1px solid $alter_bg
+		padding: 20px
+		cursor: pointer
+		display: flex
+		flex-direction: row
+		align-items: center
+		text-transform: uppercase
+		font-weight: 500
+		font-size: 10px
+		line-height: 12px
+		color: $grey
+		svg
+			margin-right: 20px
+			.stripe1
+				fill: $grey
+
+.the_customer_list
+	width: 100%
+	height: auto
+	display: flex
+	flex-direction: row
+	justify-content: space-around
+	flex-wrap: wrap
+	.customer_item
+		width: 31%
+		height: auto
+		margin-bottom: 30px
+		.image_item
+			width: 100%
+			height: 360px
+			background-position: center
+			background-size: cover
+			background-repeat: no-repeat
+			display: block
+			overflow: hidden
+			margin-bottom: 30px
+		.content_wrapper
+			width: 100%
+			height: auto
+			min-height: 120px
+			.position
+				font-weight: 500
+				font-size: 12px
+				line-height: 15px
+				text-transform: uppercase
+				color: $grey
+				margin-bottom: 8px
+			.name
+				font-weight: 500
+				font-size: 18px
+				line-height: 22px
+
+.the_content_wrapper
+	.bottom_part
+		width: 100%
+		height: auto
+		display: flex
+		flex-direction: row
+		justify-content: space-between
+		.obr_gr_wrapper
+			width: 480px
+			height: auto
+			.title
+				font-size: 24px
+				line-height: 29px
+				margin-bottom: 60px
+			.form_wrapper
+				width: 100%
+				height: auto
+				input
+					width: 100%
+					height: 55px
+					border: none
+					border-bottom: 1px solid #E5E5E5
+					margin-bottom: 10px
+					padding: 0 20px
+					display: flex
+					flex-direction: row
+					align-items: center
+					color: $color
+					font-size: 15px
+					line-height: 25px
+					&::placeholder
+						color: $grey
+				.button
+					margin-top: 80px
+			.alert_done
+				width: 100%
+				height: auto
+				padding: 20px
+				font-weight: 500
+				color: $accent
+				text-align: center
+		.need_konsult_wrapper
+			width: 280px
+			height: 100%
+
+.quote_wrapper
+	width: 100%
+	height: auto
+	position: relative
+	padding: 60px 50px 20px
+	background-color: $alter_bg
+	.theQuoteTransparentIcon
+		position: absolute
+		width: 63px
+		top: 6px
+		left: 6px
+	.text
+		font-style: italic
+		font-size: 15px
+		line-height: 32px
+		margin-bottom: 20px
+	.sign
+		font-size: 16px
+		line-height: 20px
+		display: block
+		margin-left: auto
+		width: max-content
+
+.the_chiefs_list
+	width: 100%
+	height: auto
+	display: block
+	flex-direction: column
+	.chief_item
+		width: 100%
+		height: auto
+		padding: 40px 0 40px 20px
+		border-top: 1px solid rgba(229, 229, 229, 0.5)
+		display: flex
+		flex-direction: row
+		justify-content: space-between
+		position: relative
+		&:last-child
+			border-bottom: 1px solid rgba(229, 229, 229, 0.5)
+		.image_wrapper
+			width: 27%
+			height: 240px
+			background-position: center
+			background-repeat: no-repeat
+			background-size: cover
+		.content_part
+			width: 44%
+			.position
+				margin-bottom: 24px
+			.preset
+				font-weight: 500
+				font-size: 12px
+				line-height: 15px
+				text-transform: uppercase
+				color: $grey
+				margin-bottom: 4px
+			.name
+				font-weight: 500
+				font-size: 18px
+				line-height: 22px
+				margin-bottom: 25px
+				text-transform: uppercase
+			.phone
+				font-weight: 500
+				font-size: 15px
+				line-height: 18px
+				margin-bottom: 30px
+			.graffik
+				.inner
+					font-weight: 500
+					font-size: 15px
+					line-height: 18px
+		.right_part
+			width: 23%
+			display: flex
+			align-items: flex-end
+			.button
+				width: 100%
+				font-weight: 500
+				font-size: 10px
+				line-height: 12px
+
+.hr_block
+	width: 100%
+	height: auto
+	display: flex
+	flex-direction: row
+	align-items: center
+	justify-content: space-between
+	padding: 50px 28px
+	background-color: $alter_bg
+	margin-bottom: 80px
+	.phone_wrapper
+		width: 21%
+		.preset
+			font-weight: 500
+			font-size: 12px
+			line-height: 15px
+			text-transform: uppercase
+			margin-bottom: 16px
+		.phone
+			font-weight: 500
+			font-size: 18px
+			line-height: 22px
+	.slogan
+		width: 52%
+		font-size: 18px
+		line-height: 32px
+	.button
+		width: 23%
+		font-weight: 500
+		font-size: 12px
+		line-height: 15px
+
+
+
+
+.the_vakansy_list
+	width: 100%
+	height: auto
+	.vakansy_item
+		width: 100%
+		height: auto
+		border: 1px solid #E5E5E5
+		padding: 50px 28px
+		margin-bottom: 30px
+		&:last-child
+			margin-bottom: 0
+		.top_part
+			width: 100%
+			height: auto
+			display: flex
+			flex-direction: row
+			justify-content: space-between
+			margin-bottom: 30px
+			.vk_title
+				font-weight: 500
+				font-size: 18px
+				line-height: 22px
+				width: 78%
+			.vk_price
+				font-weight: bold
+				font-size: 18px
+				line-height: 22px
+				text-align: right
+				color: $accent
+				width: 20%
+		.bottom_part
+			width: 100%
+			height: auto
+			display: flex
+			flex-direction: row
+			.hr_column
+				width: 23%
+				margin-right: auto
+			.preset
+				font-weight: 500
+				font-size: 12px
+				line-height: 15px
+				text-transform: uppercase
+				color: $grey
+				margin-bottom: 14px
+				span
+					font-weight: 500
+					font-size: 15px
+					line-height: 18px
+
+
+.the_alert_wrapper
+	width: 100%
+	height: auto
+	display: flex
+	flex-direction: row
+	align-items: center
+	padding: 22px 22px 22px 76px
+	position: relative
+	background-color: $alter_bg
+	margin-bottom: 80px
+	.theAlertIcon
+		position: absolute
+		left: 20px
+		max-width: 100%
+		max-height: 100%
+	.desc
+		font-size: 18px
+		line-height: 32px
+
+.the_history_list
+	width: 100%
+	height: auto
+	margin-bottom: 30px
+	&.h2_title
+		font-size: 30px
+		line-height: 42px
+		margin-bottom: 28px
+	.hs_item
+		width: 100%
+		height: auto
+		padding: 20px
+		display: flex
+		flex-direction: row
+		align-items: center
+		justify-content: space-between
+		background-color: $white
+		&:nth-child(odd)
+			background-color: $alter_bg
+		.date
+			width: 8%
+			font-size: 18px
+			line-height: 32px
+		.desc
+			width: 90%
+			font-size: 15px
+			line-height: 25px
+			color: $grey
+
+
+.the_partners_list
+	width: 100%
+	height: auto
+	display: flex
+	flex-direction: row
+	justify-content: space-around
+	flex-wrap: wrap
+	.partner_item
+		width: 31%
+		height: auto
+		border: 1px solid #E5E5E5
+		margin-bottom: 20px
+		padding-bottom: 24px
+		.logo_wrapper
+			width: 100%
+			height: 140px
+			position: relative
+			display: flex
+			justify-content: center
+			align-items: center
+			margin-bottom: 27px
+			img
+				display: block
+				width: auto
+				height: auto
+				max-width: 80%
+				max-height: 80%
+		.title
+			font-weight: 500
+			font-size: 18px
+			line-height: 22px
+			margin-bottom: 32px
+			padding: 0 24px
+		.adress
+			font-weight: 500
+			font-size: 15px
+			line-height: 18px
+			color: $grey
+			padding: 0 24px
+			.pretitle
+				margin-bottom: 8px
+
+
+
+
+.the_product_info
+	width: 100%
+	height: auto
+	border-top: 1px solid rgba(229, 229, 229, 0.5)
+	border-bottom: 1px solid rgba(229, 229, 229, 0.5)
+	.main_wrapper
+		display: flex
+		flex-direction: row
+		justify-content: center
+		.left_part
+			width: 50%
+			border-right: 1px solid rgba(229, 229, 229, 0.5)
+			padding: 64px 32px 64px 0
+			.image_wrapper
+				width: 100%
+				height: 488px
+				background-repeat: no-repeat
+				background-size: cover
+				background-position: center
+		.right_part
+			width: 50%
+			padding: 64px 0 64px 72px
+			position: relative
+			.perk_field
+				font-size: 15px
+				line-height: 25px
+				color: $grey
+			.curs
+				width: auto
+				height: auto
+				display: flex
+				flex-direction: column
+				justify-content: center
+				align-items: center
+				position: absolute
+				left: 72px
+				bottom: 16px
+				span
+					font-weight: 500
+					font-size: 10px
+					line-height: 12px
+					text-transform: uppercase
+					margin-bottom: 4px
+					color: $grey
+				svg
+					transform: rotate(90deg)
+			.product_charact_list
+				width: 100%
+				height: auto
+				margin-bottom: 56px
+				.charact_line
+					width: 100%
+					height: auto
+					display: flex
+					flex-direction: row
+					justify-content: space-between
+					margin-bottom: 24px
+					align-items: flex-end
+					color: $grey
+					font-size: 15px
+					line-height: 20px
+					&:last-child
+						margin-bottom: 0
+					.name
+						width: 49%
+					.product_exect
+						width: 49%
+						color: $color
+						font-weight: 500
+			.pre_perk_field
+				margin-bottom: 50px
+
+
+
+.the_pack_info
+	width: 100%
+	height: auto
+	border-bottom: 1px solid rgba(229, 229, 229, 0.5)
+	padding: 56px 0 80px
+	.main_wrapper
+		display: flex
+		flex-direction: row
+		justify-content: space-between
+		&.h3_t
+			justify-content: flex-start
+			.h3_title
+				font-size: 24px
+				line-height: 29px
+		.left_part
+			width: 70%
+			.pack_list
+				width: 100%
+				height: auto
+				.pack_item
+					width: 100%
+					height: auto
+					border-bottom: 1px solid rgba(229, 229, 229, 0.5)
+					padding: 48px 0
+					display: flex
+					flex-direction: row
+					justify-content: space-between
+					&:last-child
+						border-bottom: none
+				.content_wrap
+					width: 60%
+					display: flex
+					flex-direction: column
+					justify-content: space-between
+					.desc
+						font-size: 15px
+						line-height: 25px
+						color: $grey
+						span
+							color: $color
+							font-weight: 500
+							text-transform: uppercase
+					.bottom
+						width: 100%
+						height: auto
+						.title
+							font-size: 15px
+							line-height: 25px
+							margin-bottom: 8px
+						.price
+							font-weight: bold
+							font-size: 24px
+							line-height: 25px
+							display: inline-block
+							margin-right: 20px
+						.price_comment
+							display: inline-block
+							font-size: 15px
+							line-height: 25px
+				.image_wrap
+					width: 35%
+					height: 200px
+					background-position: center
+					background-size: cover
+					background-repeat: no-repeat
+		.right_part
+			width: 23%
+			display: flex
+			align-items: center
+			.need_konsult_wrapper
+				width: 100%
+
+
+
+.the_product_callback_form
+	padding: 70px 0 40px
+	.main_wrapper
+		display: flex
+		flex-direction: row
+		justify-content: space-between
+		&.h3_t
+			.h3_title
+				margin-bottom: 60px
+		.product_form_wrapper
+			width: 37%
+			.form_wrapper
+				width: 100%
+				height: auto
+				input
+					width: 100%
+					height: 52px
+					border: none
+					border-bottom: 1px solid #E5E5E5
+					padding: 0 16px
+					display: flex
+					flex-direction: row
+					color: $color
+					margin-bottom: 10px
+					&::placeholder
+						font-size: 15px
+						line-height: 25px
+						color: $grey
+				.button
+					margin-top: 40px
+					margin-bottom: 40px
+					width: 176px
+					font-weight: 500
+					font-size: 12px
+					line-height: 15px
+					text-transform: uppercase
+				.alert_done
+		.info_wrapper
+			width: 49%
+			font-size: 15px
+			line-height: 25px
+			color: #838383
+			strong
+				font-weight: 500
+				color: $color
+			p
+				margin-bottom: 27px
+
+.custom_select
+	width: 100%
+	height: auto
+	padding-left: 16px
+	.title
+		font-size: 15px
+		line-height: 25px
+		color: #838383
+		margin-bottom: 7px
+	.wrap
+		width: 100%
+		height: auto
+		position: relative
+		.visible
+			width: 100%
+			height: auto
+			display: flex
+			flex-direction: row
+			align-items: center
+			cursor: pointer
+			span
+				margin-right: 10px
+			.theNavBottomIcon
+				width: 10px
+		.invisible
+			position: absolute
+			width: 100%
+			height: auto
+			display: flex
+			flex-direction: column
+			background-color: $alter_bg
+			padding: 12px 10px 8px
+			z-index: 10
+			.invis_item
+				margin-bottom: 10px
+				&:hover
+					opacity: .8
+				&:last-child
+					margin-bottom: 0
+				cursor: pointer
+
+
+.custom_checkbox
+	width: 100%
+	height: auto
+	margin-bottom: 10px
+	padding-left: 16px
+	.title
+		font-size: 15px
+		line-height: 25px
+		color: #838383
+		margin-bottom: 7px
+	.wrap
+		width: 100%
+		height: auto
+		display: flex
+		flex-direction: row
+		align-items: center
+		div
+			padding-left: 20px
+			position: relative
+			font-size: 18px
+			line-height: 25px
+			display: flex
+			flex-direction: row
+			align-items: center
+			cursor: pointer
+			margin-right: 30px
+			&:last-child
+				margin-right: 0
+			&.active
+				&:before
+					border: 3px solid $accent
+			&:before
+				content: ''
+				display: block
+				width: 12px
+				height: 12px
+				border-radius: 50%
+				background-color: #E5E5E5
+				border: 3px solid transparent
+				position: absolute
+				left: 0
+				box-sizing: border-box
+
+
+.contacts_list
+	width: 100%
+	height: auto
+	display: flex
+	flex-direction: row
+	justify-content: space-between
+	padding-bottom: 40px
+	.right
+		width: 23%
+		.need_konsult_wrapper
+			width: 100%
+	.left
+		width: 74%
+		.bottom
+			width: 100%
+			display: flex
+			flex-direction: row
+			justify-content: space-between
+			.graf_wrapper
+				width: 30%
+			.title
+				font-weight: 500
+				font-size: 9px
+				line-height: 11px
+				text-transform: uppercase
+				margin-bottom: 12px
+				min-height: 30px
+				color: $grey
+			.desc
+				font-size: 15px
+				line-height: 25px
+		.top
+			width: 100%
+			display: flex
+			flex-direction: row
+			justify-content: space-between
+			border-bottom: 1px solid rgba(229, 229, 229, 0.5)
+			margin-bottom: 40px
+			.top_wrap
+				width: 30%
+				font-size: 15px
+				line-height: 25px
+				.ph_wrap
+					margin-bottom: 30px
+				.title
+					font-weight: 500
+					font-size: 9px
+					line-height: 11px
+					text-transform: uppercase
+					margin-bottom: 12px
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @import "media"

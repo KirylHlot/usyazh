@@ -54,6 +54,7 @@ if ( ! function_exists( 'starter_pack_setup' ) ) :
 				'obsh_zhizn' => esc_html__( 'obsh_zhizn', 'starter_pack' ),
 				'korrupc' => esc_html__( 'korrupc', 'starter_pack' ),
 				'kompany' => esc_html__( 'kompany', 'starter_pack' ),
+				'uslugi' => esc_html__( 'uslugi', 'starter_pack' ),
 			)
 
 		);

@@ -10,9 +10,37 @@
 get_header();
 ?>
 
-	<main id="primary" class="site-main">
+  <style>
+    .page-title{
+      margin-bottom: 20px;
+    }
 
-		<?php if ( have_posts() ) : ?>
+    article{
+      margin-bottom: 40px;
+    }
+
+    .entry-title{
+      font-weight: bold;
+      margin-bottom: 12px;
+    }
+
+    .entry-meta{
+      margin-bottom: 20px;
+    }
+
+    .entry-summary{
+      margin-bottom: 20px;
+    }
+
+    .entry-footer, .byline{
+      display: none;
+    }
+  </style>
+
+
+	<main id="primary" class="site-main">
+    <div class="main_wrapper">
+		  <?php if ( have_posts() ) : ?>
 
 			<header class="page-header">
 				<h1 class="page-title">
@@ -43,9 +71,8 @@ get_header();
 
 			get_template_part( 'template-parts/content', 'none' );
 
-		endif;
-		?>
-
+		endif;?>
+    </div>
 	</main><!-- #main -->
 
 <?php

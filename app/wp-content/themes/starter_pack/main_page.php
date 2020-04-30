@@ -125,6 +125,7 @@
         </div>
         <a href="/about/pressa-o-nas/" class="remark">Все публикации</a>
       </div>
+
       <div class="preview_list">
 
 				<?
@@ -151,6 +152,7 @@
 				wp_reset_postdata();
 				?>
       </div>
+
 			<? echo do_shortcode('[ajax_load_more container_type="div" scroll="false" post_type="post" offset="' . $offset . '" posts_per_page="8" category="ideolog-meropriyat,vse-meropriyatiya,pressa-o-nas,profsoyznye-meropriyatiya" pause="true" button_label="Загрузить еще"]');  ?>
     </div>
   </section>
@@ -285,6 +287,7 @@
                 <? the_field('contacts_skype', 46) ?>
               </div>
             </div>
+
             <div class="button simple_button claim">
               написать сообщение
             </div>

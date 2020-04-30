@@ -264,23 +264,20 @@ function hidden_menu() {
 }
 
 function sidebarRouter( $category ) { ?>
-  <!--  obsh_zhizn-->
-  <!--  korrupc-->
-  <!--  kompany-->
+  <!--  obsh_zhizn -->
+  <!--  korrupc -->
+  <!--  kompany -->
+  <!--  uslugi -->
   <div class="sidebar" id="sidebar">
+    <?
+      wp_nav_menu( [
+        'theme_location' => $category,
+        'menu_class'     => 'sidebar_menu_wrapper',
+        'container'      => 'false'
+      ] );
 
-		<? wp_nav_menu( [
-			'theme_location' => $category,
-			'menu_class'     => 'sidebar_menu_wrapper',
-			'container'      => 'false'
-		] ); ?>
-
-    <div class="need_konsult_wrapper">
-			<? theMailBigIcon(); ?>
-      <div class="title">Нужна консультация?</div>
-      <div class="desc">Наши специалисты ответят на любой интересующий вопрос</div>
-      <div class="link claim">задать вопрос</div>
-    </div>
+      needKonsultItem();
+    ?>
   </div>
 	<?
 

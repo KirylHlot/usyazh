@@ -23,19 +23,20 @@ $menu_name = 'obsh_zhizn';
 			<h1 class="h1_title">
 				<? the_field('main_h1', $page_id); ?>
 			</h1>
-			<div class="print_wrapper">
-				<? thePrintIcon(); ?>
-			</div>
-
+			<?= do_shortcode('[print-me target="body" title="" do_not_print=""]'); ?>
 		</div>
 
 		<div class="main_content_wrapper">
 			<? sidebarRouter($menu_name); ?>
 			<div class="the_content_wrapper">
 				<? innerPageTopTemplate($page_id); ?>
-				<div class="the_content">
-					<? the_content(); ?>
-				</div>
+
+				<?
+				if(get_the_content() !==''){ ?>
+          <div class="the_content">
+						<? the_content(); ?>
+          </div>
+				<? } ?>
 				<? theFotogalaryTemplate($page_id); ?>
 				<? theFileListTemplate($page_id); ?>
 				<? backToListButton($parent_link); ?>
